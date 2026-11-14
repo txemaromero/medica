@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copia automática de Android 12 y posteriores (para las anteriores, ver
+     reglas_copia_android11.xml), en la cuenta de Google y al pasar los datos
+     a un móvil nuevo. Solo se copia lo que la app no puede volver a crear: la
+     base de datos (medicamentos, citas y tomas), los ajustes y las fotos de
+     las cajas. Se quedan fuera las preferencias del widget (con su código
+     secreto, que es de cada instalación) y la lista de avisos programados,
+     porque la app las vuelve a crear al abrirse; la caché nunca se copia.
+     No se exige que la copia en la nube vaya cifrada con el bloqueo de
+     pantalla: sin bloqueo, el teléfono no haría copia. Ver "Copia automática
+     de Android" en el README. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="database" path="." />
+        <include domain="sharedpref" path="FlutterSharedPreferences.xml" />
+        <include domain="root" path="app_flutter/fotos" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="database" path="." />
+        <include domain="sharedpref" path="FlutterSharedPreferences.xml" />
+        <include domain="root" path="app_flutter/fotos" />
+    </device-transfer>
+</data-extraction-rules>

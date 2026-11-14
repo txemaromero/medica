@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textos del widget de la pantalla de inicio que se ven antes de que la app
+     le mande los suyos (los de lib/l10n): el nombre en la lista de widgets y
+     lo que muestra recién puesto. -->
+<resources>
+    <string name="widget_nombre">Próxima toma</string>
+    <string name="widget_descripcion">La próxima toma y el botón \"Ya la he tomado\".</string>
+    <string name="widget_sin_datos">Abre la aplicación para ver tus tomas.</string>
+</resources>

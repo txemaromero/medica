@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textos del widget en euskera (ver values/strings.xml). -->
+<resources>
+    <string name="widget_nombre">Hurrengo hartualdia</string>
+    <string name="widget_descripcion">Hurrengo hartualdia eta \"Hartu dut\" botoia.</string>
+    <string name="widget_sin_datos">Ireki aplikazioa zure hartualdiak ikusteko.</string>
+</resources>

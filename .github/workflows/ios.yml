@@ -1,0 +1,34 @@
+# Compilación de iOS sin firmar, para comprobar que la configuración de iOS
+# sigue compilando. Se lanza a mano (pestaña Actions → iOS → Run workflow):
+# en un repositorio privado, cada minuto de macOS cuenta por diez.
+name: iOS
+
+on:
+  workflow_dispatch:
+
+# El token de GitHub solo puede leer el repositorio.
+permissions:
+  contents: read
+
+jobs:
+  ios:
+    name: Compilación iOS sin firmar
+    runs-on: macos-latest
+    timeout-minutes: 60
+    steps:
+      # Fijadas por su commit, como en comprobacion.yml.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
+        with:
+          flutter-version: '3.47.8'
+          channel: stable
+          cache: true
+
+      # Exactamente las versiones de pubspec.lock: si no cuadran con
+      # pubspec.yaml, falla en vez de cambiarlas.
+      - name: Dependencias
+        run: flutter pub get --enforce-lockfile
+
+      - name: Compilación iOS
+        run: flutter build ios --release --no-codesign

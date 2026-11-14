@@ -1,0 +1,24 @@
+# Dependabot propone una vez al mes, con una pull request, las versiones
+# nuevas de las acciones de GitHub (que van fijadas por su commit) y de los
+# paquetes de Dart. Cada propuesta pasa la comprobación automática antes de
+# aceptarla; nada se cambia solo.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      acciones:
+        patterns: ['*']
+
+  # Las versiones menores juntas en una sola propuesta; las mayores, que
+  # pueden romper algo, cada una por separado.
+  - package-ecosystem: pub
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      paquetes:
+        patterns: ['*']
+        update-types: [minor, patch]

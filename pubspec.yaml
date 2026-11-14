@@ -1,0 +1,91 @@
+name: salud_mayores
+description: "Salud y Medicación: recordatorios de medicación, agenda de citas y botón de emergencias para personas mayores."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # Textos traducibles (lib/l10n, generados con gen-l10n). La versión la
+  # marca flutter_localizations; Dependabot propone las nuevas.
+  intl: ^0.20.3
+
+  # Estado
+  flutter_riverpod: ^3.4.3
+
+  # Persistencia local
+  sqflite: ^2.4.5
+  path: ^1.9.1
+  shared_preferences: ^2.5.6
+
+  # Recordatorios
+  flutter_local_notifications: ^22.3.3
+  timezone: ^0.11.2
+  flutter_timezone: ^5.1.1
+
+  # Llamada de emergencia (abre el marcador con tel:)
+  url_launcher: ^6.3.3
+
+  # Foto de la caja del medicamento (cámara o galería) y carpeta donde se
+  # guardan las fotos.
+  image_picker: ^1.2.4
+  path_provider: ^2.1.6
+
+  # Documento PDF para el médico o la familia, y pantalla de imprimir.
+  pdf: ^3.13.1
+  printing: ^5.15.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Tests en un móvil o emulador real (carpeta integration_test/).
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # Base de datos SQLite en memoria para los tests.
+  sqflite_common_ffi: ^2.4.5
+  # Genera los iconos de Android e iOS (ver más abajo).
+  flutter_launcher_icons: ^0.14.4
+  # Guarda los recursos de Google Play como PNG sin transparencia
+  # (tool/google_play).
+  image: ^4.12.0
+
+flutter:
+  uses-material-design: true
+  # Genera TextosApp a partir de lib/l10n/*.arb (ver l10n.yaml).
+  generate: true
+
+  # Montserrat se incluye en la app (licencia SIL OFL 1.1, ver
+  # assets/fonts/OFL.txt) para que funcione sin conexión.
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+          weight: 800
+
+# Icono de la app: las imágenes de origen se generan con
+# tool/icono/icono_test.dart. Para regenerar los iconos de Android e iOS:
+#   dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icono/icono.png"
+  min_sdk_android: 24
+  adaptive_icon_background: "#B6D8FF"
+  adaptive_icon_foreground: "assets/icono/primer_plano.png"
+  adaptive_icon_monochrome: "assets/icono/primer_plano.png"
+  remove_alpha_ios: true

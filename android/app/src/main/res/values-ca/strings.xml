@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textos del widget en catalán (ver values/strings.xml). -->
+<resources>
+    <string name="widget_nombre">Propera presa</string>
+    <string name="widget_descripcion">La propera presa i el botó \"Ja me l\'he presa\".</string>
+    <string name="widget_sin_datos">Obre l\'aplicació per veure les teves preses.</string>
+</resources>

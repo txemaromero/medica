@@ -1,0 +1,102 @@
+# Comprobación automática en cada cambio: formato, análisis estático, tests
+# y compilación del APK de depuración y del App Bundle de release.
+#
+# Los mismos pasos se pueden ejecutar en local con tool/comprobar.ps1.
+name: Comprobación
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+# El token de GitHub solo puede leer el repositorio: la comprobación no
+# escribe nada en él.
+permissions:
+  contents: read
+
+# Si llega un cambio nuevo a la misma rama, se cancela la comprobación anterior.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  android:
+    name: Análisis, tests y compilación Android
+    # Versión fija: el paso de liberar espacio está pensado para esta imagen
+    # (ubuntu-latest pasa a Ubuntu 26 desde octubre de 2026).
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      # El servidor de GitHub trae unos 14 GB libres, y las dos compilaciones
+      # de Android (con la NDK y las cachés de Gradle) no caben: el App Bundle
+      # fallaba con "No space left on device". Se borra lo que trae
+      # preinstalado y no se usa, incluidas las NDK que no son la de Flutter
+      # (FlutterExtension.ndkVersion; si cambia, Gradle la descarga).
+      - name: Liberar espacio en disco
+        run: |
+          df -h /
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/.ghcup \
+            /opt/hostedtoolcache/CodeQL /usr/local/share/boost /usr/share/swift
+          for ndk in /usr/local/lib/android/sdk/ndk/*; do
+            [ "$(basename "$ndk")" = 28.2.13676358 ] || sudo rm -rf "$ndk"
+          done
+          df -h /
+
+      # Las acciones van fijadas por su commit, con la versión al lado: una
+      # etiqueta (v7) se puede mover a otro código, un commit no. Dependabot
+      # propone las versiones nuevas (ver .github/dependabot.yml).
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad # v6.1.0
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
+        with:
+          flutter-version: '3.47.8'
+          channel: stable
+          cache: true
+
+      # Exactamente las versiones de pubspec.lock: si no cuadran con
+      # pubspec.yaml, falla en vez de cambiarlas.
+      - name: Dependencias
+        run: flutter pub get --enforce-lockfile
+
+      # lib/l10n/textos_app*.dart se generan a partir de los .arb: si alguien
+      # cambia un texto y no los regenera, se avisa aquí.
+      - name: Textos generados al día
+        run: |
+          flutter gen-l10n
+          git diff --exit-code lib/l10n
+          test -z "$(git status --porcelain lib/l10n)"
+
+      - name: Formato
+        run: dart format --output=none --set-exit-if-changed lib test integration_test tool
+
+      - name: Análisis estático
+        run: flutter analyze
+
+      - name: Tests unitarios y de widgets
+        run: flutter test
+
+      - name: APK de depuración
+        run: flutter build apk --debug
+
+      - name: Guardar el APK de depuración
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: apk-depuracion
+          path: build/app/outputs/flutter-apk/app-debug.apk
+          retention-days: 14
+
+      # La compilación de depuración ocupa varios GB que la de release no usa.
+      - name: Borrar la compilación de depuración
+        run: rm -rf build
+
+      # Sin android/key.properties se firma con la clave de depuración: sirve
+      # para comprobar que la versión release compila (con R8), no para
+      # publicarla.
+      - name: App Bundle de release
+        run: flutter build appbundle --release

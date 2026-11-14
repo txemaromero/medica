@@ -1,0 +1,11 @@
+# Textos de la app: lib/l10n/app_<idioma>.arb. El castellano (app_es.arb) es
+# la plantilla. Para añadir un idioma basta con crear, por ejemplo,
+# lib/l10n/app_ca.arb con las mismas claves traducidas (ver el README).
+arb-dir: lib/l10n
+template-arb-file: app_es.arb
+output-localization-file: textos_app.dart
+output-class: TextosApp
+nullable-getter: false
+# El castellano va el primero: es el que se usa si el teléfono está en un
+# idioma sin traducción (sin esto, gen-l10n los ordena alfabéticamente).
+preferred-supported-locales: [es]

@@ -1,0 +1,3 @@
+/* Textos de los permisos de iOS en euskera (los de castellano están en Info.plist). */
+"NSCameraUsageDescription" = "Botikaren kaxari argazki bat ateratzeko eta begi-kolpe batean ezagutzeko.";
+"NSPhotoLibraryUsageDescription" = "Botikaren kaxaren argazki bat aukeratzeko.";

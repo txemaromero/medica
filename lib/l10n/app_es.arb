@@ -1,0 +1,2854 @@
+{
+  "@@locale": "es",
+  "fechaLunes": "lunes",
+  "fechaMartes": "martes",
+  "fechaMiercoles": "miércoles",
+  "fechaJueves": "jueves",
+  "fechaViernes": "viernes",
+  "fechaSabado": "sábado",
+  "fechaDomingo": "domingo",
+  "fechaEnero": "enero",
+  "fechaFebrero": "febrero",
+  "fechaMarzo": "marzo",
+  "fechaAbril": "abril",
+  "fechaMayo": "mayo",
+  "fechaJunio": "junio",
+  "fechaJulio": "julio",
+  "fechaAgosto": "agosto",
+  "fechaSeptiembre": "septiembre",
+  "fechaOctubre": "octubre",
+  "fechaNoviembre": "noviembre",
+  "fechaDiciembre": "diciembre",
+  "fechaLarga": "{diaSemana}, {dia} de {mes} de {anio}",
+  "@fechaLarga": {
+    "description": "Fecha completa, por ejemplo: domingo, 25 de octubre de 2026.",
+    "placeholders": {
+      "diaSemana": {
+        "type": "String"
+      },
+      "dia": {
+        "type": "String"
+      },
+      "mes": {
+        "type": "String"
+      },
+      "anio": {
+        "type": "String"
+      }
+    }
+  },
+  "fechaHoy": "Hoy, {fecha}",
+  "@fechaHoy": {
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "fechaManana": "Mañana, {fecha}",
+  "@fechaManana": {
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "fechaAyer": "Ayer, {fecha}",
+  "@fechaAyer": {
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "fechaCuandoHoy": "hoy a las {hora}",
+  "@fechaCuandoHoy": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "fechaCuandoManana": "mañana a las {hora}",
+  "@fechaCuandoManana": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "fechaCuandoOtroDia": "el {diaSemana}, {dia} de {mes}, a las {hora}",
+  "@fechaCuandoOtroDia": {
+    "description": "Cuándo ocurre algo otro día, por ejemplo: el martes, 27 de octubre, a las 10:30.",
+    "placeholders": {
+      "diaSemana": {
+        "type": "String"
+      },
+      "dia": {
+        "type": "String"
+      },
+      "mes": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "fechaDeLaMadrugada": "de la madrugada",
+  "fechaDeLaManana": "de la mañana",
+  "fechaDelMediodia": "del mediodía",
+  "fechaDeLaTarde": "de la tarde",
+  "fechaDeLaNoche": "de la noche",
+  "fechaHoraConParteDelDia": "{hora} {parteDelDia}",
+  "@fechaHoraConParteDelDia": {
+    "description": "Por ejemplo: 08:30 de la mañana.",
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      },
+      "parteDelDia": {
+        "type": "String"
+      }
+    }
+  },
+  "fechaListaUltimo": "{anteriores} y {ultimo}",
+  "@fechaListaUltimo": {
+    "description": "Une el último elemento de una lista: «08:00, 16:00 y 00:00».",
+    "placeholders": {
+      "anteriores": {
+        "type": "String"
+      },
+      "ultimo": {
+        "type": "String"
+      }
+    }
+  },
+  "fechaSeparadorLista": ", ",
+  "appTitulo": "Salud y Medicación",
+  "avisoDeshecho": "Hecho. Se ha deshecho la acción.",
+  "avisoNoSeHaPodidoDeshacer": "No se ha podido deshacer. Inténtalo otra vez.",
+  "botonDeshacer": "Deshacer",
+  "botonDeshacerPista": "Deshace lo que acabas de hacer",
+  "@botonDeshacerPista": {
+    "description": "Lo que TalkBack dice del botón «Deshacer» cuando no hay una explicación más concreta."
+  },
+  "botonDeshacerPistaEliminar": "Recupera lo que acabas de eliminar",
+  "barraInicio": "Inicio",
+  "barraAtras": "Atrás",
+  "barraInicioSemantica": "Inicio. Volver al menú principal",
+  "barraAtrasSemantica": "Atrás. Volver a la pantalla anterior",
+  "interruptorActivado": "Activado",
+  "interruptorDesactivado": "Desactivado",
+  "selectorValor": "{etiqueta}: {valor}",
+  "@selectorValor": {
+    "description": "Lo que lee TalkBack en un selector + / −, por ejemplo «Tomas al día: 2 tomas».",
+    "placeholders": {
+      "etiqueta": {
+        "type": "String"
+      },
+      "valor": {
+        "type": "String"
+      }
+    }
+  },
+  "cargando": "Cargando…",
+  "mensajeError": "Error: {texto}",
+  "@mensajeError": {
+    "placeholders": {
+      "texto": {
+        "type": "String"
+      }
+    }
+  },
+  "dialogoSiEliminar": "Sí, eliminar",
+  "dialogoNoVolver": "No, volver",
+  "dialogoAceptar": "Aceptar",
+  "dialogoEntendido": "Entendido",
+  "dialogoAhoraNo": "Ahora no",
+  "selectorHoraElegida": "Hora elegida: {hora}",
+  "@selectorHoraElegida": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "selectorHora": "Hora",
+  "selectorHoraValor": "{hora} horas",
+  "@selectorHoraValor": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "selectorRestarHora": "Restar una hora",
+  "selectorSumarHora": "Sumar una hora",
+  "selectorMinutos": "Minutos",
+  "selectorMinutosValor": "{minutos} minutos",
+  "@selectorMinutosValor": {
+    "placeholders": {
+      "minutos": {
+        "type": "String"
+      }
+    }
+  },
+  "selectorRestarMinutos": "Restar {minutos} minutos",
+  "@selectorRestarMinutos": {
+    "placeholders": {
+      "minutos": {
+        "type": "String"
+      }
+    }
+  },
+  "selectorSumarMinutos": "Sumar {minutos} minutos",
+  "@selectorSumarMinutos": {
+    "placeholders": {
+      "minutos": {
+        "type": "String"
+      }
+    }
+  },
+  "selectorAtajoHoy": "Hoy",
+  "selectorAtajoManana": "Mañana",
+  "selectorAtajoEnUnaSemana": "En una semana",
+  "selectorDiaElegido": "Día elegido: {fecha}",
+  "@selectorDiaElegido": {
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "selectorDia": "Día",
+  "selectorDiaAnterior": "Día anterior",
+  "selectorDiaSiguiente": "Día siguiente",
+  "selectorMes": "Mes",
+  "selectorMesAnterior": "Mes anterior",
+  "selectorMesSiguiente": "Mes siguiente",
+  "selectorAnio": "Año",
+  "selectorAnioAnterior": "Año anterior",
+  "selectorAnioSiguiente": "Año siguiente",
+  "selectorElegir": "Elegir: {texto}",
+  "@selectorElegir": {
+    "description": "Lo que lee TalkBack en los atajos de fecha, por ejemplo «Elegir: Mañana».",
+    "placeholders": {
+      "texto": {
+        "type": "String"
+      }
+    }
+  },
+  "menuTitulo": "Menú principal",
+  "menuPregunta": "¿Qué quieres hacer?",
+  "menuMedicamentos": "Registro de medicamentos",
+  "menuAgenda": "Agenda",
+  "menuEmergencias": "Botón de emergencias",
+  "menuAjustes": "Ajustes",
+  "menuTomasDeHoy": "Tomas de hoy: {tomadas} de {total} marcadas.",
+  "@menuTomasDeHoy": {
+    "placeholders": {
+      "tomadas": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "menuProximaToma": "Próxima toma: {medicamento}, {cuando}.",
+  "@menuProximaToma": {
+    "description": "Por ejemplo: «Próxima toma: Paracetamol, hoy a las 16:00.»",
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "cuando": {
+        "type": "String"
+      }
+    }
+  },
+  "menuProximaCita": "Próxima cita: {cita}, {cuando}.",
+  "@menuProximaCita": {
+    "description": "Por ejemplo: «Próxima cita: Dentista, el martes, 27 de octubre, a las 10:30.»",
+    "placeholders": {
+      "cita": {
+        "type": "String"
+      },
+      "cuando": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasTitulo": "Tomas de hoy",
+  "medicamentosMenuTomasDescripcion": "Marca las medicinas que ya has tomado hoy.",
+  "medicamentosMenuNuevo": "Registrar nuevo medicamento",
+  "medicamentosMenuNuevoDescripcion": "Apunta una medicina y te avisaremos cuando tengas que tomarla.",
+  "medicamentosMenuVer": "Ver medicamentos registrados",
+  "medicamentosMenuVerDescripcion": "Consulta tus medicinas y sus horas, cámbialas o borra las que ya no tomes.",
+  "historialTitulo": "Historial de tomas",
+  "medicamentosMenuHistorialDescripcion": "Mira qué tomas marcaste en los últimos 7 días.",
+  "medicamentosMenuCompartir": "Compartir con el médico o la familia",
+  "medicamentosMenuCompartirDescripcion": "Envía o imprime tus medicinas, tus tomas y tus citas.",
+  "listaMedicamentosTitulo": "Medicamentos registrados",
+  "listaMedicamentosPreguntaEliminar": "¿Seguro que quieres eliminar este medicamento?",
+  "listaMedicamentosDetalleEliminar": "{medicamento}\n\nTambién se borrarán sus avisos.",
+  "@listaMedicamentosDetalleEliminar": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "listaMedicamentosErrorEliminar": "No se ha podido eliminar el medicamento. Inténtalo otra vez.",
+  "listaMedicamentosEliminado": "Medicamento eliminado: {medicamento}",
+  "@listaMedicamentosEliminado": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "listaMedicamentosRecuperado": "Medicamento recuperado: {medicamento}",
+  "@listaMedicamentosRecuperado": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "listaMedicamentosVacio": "Todavía no has registrado ningún medicamento",
+  "listaMedicamentosVacioExplicacion": "Cuando registres uno, aparecerá aquí con sus horas de toma.",
+  "listaMedicamentosCuantos": "{cantidad, plural, =1{Tienes 1 medicamento registrado.} other{Tienes {cantidad} medicamentos registrados.}}",
+  "@listaMedicamentosCuantos": {
+    "placeholders": {
+      "cantidad": {
+        "type": "int"
+      }
+    }
+  },
+  "medicamentoSinFechaDeFin": "Cada día, sin fecha de fin",
+  "medicamentoTerminadoEl": "Tratamiento terminado el {fecha}",
+  "@medicamentoTerminadoEl": {
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "medicamentoRecetaHasta": "Receta: hasta el {fecha}",
+  "@medicamentoRecetaHasta": {
+    "description": "Por ejemplo: «Receta: hasta el lunes, 2 de noviembre de 2026».",
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "medicamentoRecetaPronto": "{dias, plural, =0{La receta se acaba hoy: pide cita con tu médico para renovarla} =1{La receta se acaba mañana: pide cita con tu médico para renovarla} other{La receta se acaba dentro de {dias} días: pide cita con tu médico para renovarla}}",
+  "@medicamentoRecetaPronto": {
+    "placeholders": {
+      "dias": {
+        "type": "int"
+      }
+    }
+  },
+  "medicamentoRecetaAcabada": "La receta se acabó el {fecha}: pide cita con tu médico para renovarla",
+  "@medicamentoRecetaAcabada": {
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "medicamentoRecetaRenovada": "Ya la he renovado",
+  "@medicamentoRecetaRenovada": {
+    "description": "Botón de la tarjeta del medicamento cuando hay que renovar la receta."
+  },
+  "medicamentoRecetaRenovadaSemantica": "Ya he renovado la receta de {medicamento}",
+  "@medicamentoRecetaRenovadaSemantica": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "medicamentoHastaEl": "Hasta el {fecha}, incluido",
+  "@medicamentoHastaEl": {
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "medicamentoDosis": "Dosis: {dosis}",
+  "@medicamentoDosis": {
+    "placeholders": {
+      "dosis": {
+        "type": "String"
+      }
+    }
+  },
+  "medicamentoDosisALas": "{dosis} a las {hora}",
+  "@medicamentoDosisALas": {
+    "description": "Parte de «Dosis: 1 pastilla a las 08:00 y media pastilla a las 21:00».",
+    "placeholders": {
+      "dosis": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "medicamentoHoras": "Horas: {horas}",
+  "@medicamentoHoras": {
+    "placeholders": {
+      "horas": {
+        "type": "String"
+      }
+    }
+  },
+  "botonModificar": "Modificar",
+  "botonModificarSemantica": "Modificar {nombre}",
+  "@botonModificarSemantica": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "botonEliminar": "Eliminar",
+  "botonEliminarSemantica": "Eliminar {nombre}",
+  "@botonEliminarSemantica": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoTituloNuevo": "Nuevo medicamento",
+  "formularioMedicamentoTituloModificar": "Modificar medicamento",
+  "formularioMedicamentoCrear": "Crear recordatorio",
+  "formularioGuardarCambios": "Guardar cambios",
+  "formularioMedicamentoGuardado": "Medicamento guardado correctamente",
+  "formularioCambiosGuardados": "Cambios guardados correctamente",
+  "formularioFotoAnadida": "Foto añadida. Se guardará al pulsar \"{boton}\".",
+  "@formularioFotoAnadida": {
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioErrorFotoCamara": "No se ha podido hacer la foto. Inténtalo otra vez.",
+  "formularioErrorFotoGaleria": "No se ha podido abrir la galería. Inténtalo otra vez.",
+  "formularioFotoQuitada": "Foto quitada. El cambio se guardará al pulsar \"{boton}\".",
+  "@formularioFotoQuitada": {
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoErrorGuardar": "No se ha podido guardar el medicamento. Inténtalo otra vez.",
+  "formularioMedicamentoResumenGuardado": "{medicamento}: {tomas}.\nHoras de toma: {horas}.",
+  "@formularioMedicamentoResumenGuardado": {
+    "description": "Por ejemplo: «Paracetamol: 3 tomas al día, cada 8 horas.» y, en otra línea, «Horas de toma: 08:00, 16:00 y 00:00.»",
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "tomas": {
+        "type": "String"
+      },
+      "horas": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoUltimoDia": "Último día: {fecha}.",
+  "@formularioMedicamentoUltimoDia": {
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "avisosDesactivadosEnAjustes": "Los avisos están desactivados. Puedes activarlos en Ajustes.",
+  "formularioMedicamentoAvisoCadaDia": "Te avisaremos cada día a las {horas}.",
+  "@formularioMedicamentoAvisoCadaDia": {
+    "placeholders": {
+      "horas": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoAvisoHasta": "Te avisaremos a las {horas} hasta el {fecha}, incluido.",
+  "@formularioMedicamentoAvisoHasta": {
+    "placeholders": {
+      "horas": {
+        "type": "String"
+      },
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioGuardando": "Guardando…",
+  "formularioRellenaYPulsa": "Rellena los datos y pulsa \"{boton}\".",
+  "@formularioRellenaYPulsa": {
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoNombre": "Nombre del medicamento",
+  "formularioMedicamentoNombreDescripcion": "Por ejemplo: Paracetamol.",
+  "formularioMedicamentoDictarNombre": "Dictar el nombre",
+  "formularioMedicamentoDictarNombreIndicacion": "Di el nombre del medicamento",
+  "formularioMedicamentoDosis": "Dosis (opcional)",
+  "formularioMedicamentoDosisDescripcion": "Cuánto tomas cada vez. Por ejemplo: 1 pastilla.",
+  "formularioMedicamentoDosisEnCadaToma": "La dosis cambia según la hora: la de cada toma está más abajo, en \"{seccion}\".",
+  "@formularioMedicamentoDosisEnCadaToma": {
+    "placeholders": {
+      "seccion": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoDosisTomasTitulo": "Dosis en cada toma",
+  "formularioMedicamentoDosisTomasDescripcion": "Si cambia según la hora; por ejemplo, una pastilla por la mañana y media por la noche.",
+  "formularioMedicamentoDosisIgual": "La misma en todas",
+  "formularioMedicamentoDosisIgualDescripcion": "La de arriba, en el campo de la dosis.",
+  "formularioMedicamentoDosisDistinta": "Distinta según la hora",
+  "formularioMedicamentoDosisDistintaDescripcion": "Escribe abajo la de cada toma.",
+  "formularioMedicamentoDosisDeLas": "Dosis de las {hora}",
+  "@formularioMedicamentoDosisDeLas": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoInstrucciones": "Instrucciones (opcional)",
+  "formularioMedicamentoInstruccionesDescripcion": "Por ejemplo: con el desayuno.",
+  "formularioMedicamentoFoto": "Foto de la caja (opcional)",
+  "formularioMedicamentoFotoDescripcion": "Así reconocerás el medicamento de un vistazo.",
+  "formularioMedicamentoHacerFoto": "Hacer una foto",
+  "formularioMedicamentoHacerOtraFoto": "Hacer otra foto",
+  "formularioMedicamentoHacerFotoDescripcion": "Con la cámara del teléfono.",
+  "formularioMedicamentoElegirGaleria": "Elegir de la galería",
+  "formularioMedicamentoElegirOtraGaleria": "Elegir otra de la galería",
+  "formularioMedicamentoGaleriaDescripcion": "Una foto que ya tengas en el teléfono.",
+  "formularioMedicamentoQuitarFoto": "Quitar la foto",
+  "formularioMedicamentoNumeroTomas": "Número de tomas al día",
+  "formularioMedicamentoNumeroTomasDescripcion": "¿Cuántas veces al día lo tomas?",
+  "formularioMedicamentoTomasAlDia": "Tomas al día",
+  "formularioMedicamentoTomasValor": "{tomas, plural, =1{1 toma} other{{tomas} tomas}}",
+  "@formularioMedicamentoTomasValor": {
+    "placeholders": {
+      "tomas": {
+        "type": "int"
+      }
+    }
+  },
+  "formularioMedicamentoTomaMenos": "Una toma menos",
+  "formularioMedicamentoTomaMas": "Una toma más",
+  "formularioMedicamentoCadaCuantasHoras": "Cada cuántas horas",
+  "formularioMedicamentoCadaHorasCorto": "Cada {horas} h",
+  "@formularioMedicamentoCadaHorasCorto": {
+    "placeholders": {
+      "horas": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoCadaHorasValor": "Cada {horas} horas",
+  "@formularioMedicamentoCadaHorasValor": {
+    "placeholders": {
+      "horas": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoHoraMenos": "Una hora menos entre tomas",
+  "formularioMedicamentoHoraMas": "Una hora más entre tomas",
+  "formularioMedicamentoHoraInicio": "Hora de inicio",
+  "formularioMedicamentoHoraInicioDescripcion": "¿A qué hora es la primera toma del día?",
+  "formularioMedicamentoDuracion": "Duración del tratamiento",
+  "formularioMedicamentoDuracionDescripcion": "¿Lo tomas siempre o solo unos días?",
+  "formularioMedicamentoSiempre": "Siempre",
+  "formularioMedicamentoSiempreDescripcion": "Sin fecha de fin. Por ejemplo, una medicina para la tensión.",
+  "formularioMedicamentoHastaUnDia": "Hasta un día concreto",
+  "formularioMedicamentoHastaUnDiaDescripcion": "Por ejemplo, un antibiótico durante 7 días.",
+  "formularioMedicamentoUltimoDiaEtiqueta": "Último día del tratamiento",
+  "formularioMedicamentoUltimoDiaDescripcion": "Ese día todavía hay que tomarlo.",
+  "formularioMedicamentoRecetaTitulo": "Receta (opcional)",
+  "formularioMedicamentoRecetaDescripcion": "Si la receta se acaba un día, te avisamos una semana antes para que pidas cita con tu médico.",
+  "formularioMedicamentoSinReceta": "Sin fecha",
+  "formularioMedicamentoSinRecetaDescripcion": "No te avisamos de la receta.",
+  "formularioMedicamentoConReceta": "Se acaba un día concreto",
+  "formularioMedicamentoConRecetaDescripcion": "Te avisamos una semana antes y, hasta que la renueves, cada día que abras la aplicación.",
+  "formularioMedicamentoRecetaFecha": "Último día de la receta",
+  "formularioMedicamentoRecetaFechaDescripcion": "Lo pone en la hoja de la receta, o te lo dicen en la farmacia.",
+  "formularioResumen": "Resumen",
+  "fotoCaja": "Foto de la caja",
+  "fotoCajaDe": "Foto de la caja de {medicamento}",
+  "@fotoCajaDe": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "fotoNoSePuedeMostrar": "No se puede mostrar la foto.",
+  "horarioDescripcion": "{tomas, plural, =1{1 toma al día} other{{tomas} tomas al día, cada {horas} horas}}",
+  "@horarioDescripcion": {
+    "description": "Por ejemplo: «3 tomas al día, cada 8 horas».",
+    "placeholders": {
+      "tomas": {
+        "type": "int"
+      },
+      "horas": {
+        "type": "String"
+      }
+    }
+  },
+  "validadorMedicamentoNombreVacio": "Escribe el nombre del medicamento. Por ejemplo: Paracetamol.",
+  "validadorMedicamentoNombreLargo": "El nombre es demasiado largo. Usa como máximo {maximo} letras.",
+  "@validadorMedicamentoNombreLargo": {
+    "placeholders": {
+      "maximo": {
+        "type": "String"
+      }
+    }
+  },
+  "validadorMedicamentoTomas": "Elige cuántas veces al día lo tomas: entre {minimo} y {maximo}.",
+  "@validadorMedicamentoTomas": {
+    "placeholders": {
+      "minimo": {
+        "type": "String"
+      },
+      "maximo": {
+        "type": "String"
+      }
+    }
+  },
+  "validadorMedicamentoFrecuenciaUnaToma": "Con 1 toma al día no hace falta elegir la frecuencia.",
+  "validadorMedicamentoFrecuencia": "Con {tomas} tomas al día, elige una frecuencia de {horas} horas o menos.",
+  "@validadorMedicamentoFrecuencia": {
+    "placeholders": {
+      "tomas": {
+        "type": "String"
+      },
+      "horas": {
+        "type": "String"
+      }
+    }
+  },
+  "validadorMedicamentoDosisLarga": "La dosis es demasiado larga. Usa como máximo {maximo} letras.",
+  "@validadorMedicamentoDosisLarga": {
+    "placeholders": {
+      "maximo": {
+        "type": "String"
+      }
+    }
+  },
+  "validadorMedicamentoInstruccionesLargas": "Las instrucciones son demasiado largas. Usa como máximo {maximo} letras.",
+  "@validadorMedicamentoInstruccionesLargas": {
+    "placeholders": {
+      "maximo": {
+        "type": "String"
+      }
+    }
+  },
+  "validadorMedicamentoHoraInicio": "Elige la hora de la primera toma.",
+  "validadorMedicamentoFechaFinPasada": "Ese día ya ha pasado. Elige hoy o un día futuro, o marca \"{opcion}\" si no tiene fin.",
+  "@validadorMedicamentoFechaFinPasada": {
+    "description": "{opcion} es el texto de la opción «Siempre» del formulario.",
+    "placeholders": {
+      "opcion": {
+        "type": "String"
+      }
+    }
+  },
+  "errorCargarMedicamentos": "No se han podido cargar tus medicamentos. Cierra la aplicación y vuelve a abrirla.",
+  "tomasMarcar": "Ya la he tomado",
+  "tomasDesmarcar": "Desmarcar",
+  "tomasVacio": "Hoy no tienes ninguna toma",
+  "tomasVacioExplicacion": "Cuando registres un medicamento, aquí podrás marcar cada toma.",
+  "tomasEscuchar": "Escuchar las tomas de hoy",
+  "tomasEscucharDescripcion": "Te leerá cuáles has tomado y cuáles faltan.",
+  "tomasAnotada": "Anotado: has tomado {medicamento} ({hora}).",
+  "@tomasAnotada": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasDesmarcada": "Toma desmarcada: {medicamento} ({hora}).",
+  "tomasDeshacerMarcarPista": "Quita la marca de esta toma",
+  "tomasDeshacerDesmarcarPista": "Vuelve a marcar esta toma",
+  "@tomasDesmarcada": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasErrorCarga": "No se han podido cargar tus tomas. Cierra la aplicación y vuelve a abrirla.",
+  "tomasHasTomado": "Has tomado {tomadas} de {total}.",
+  "@tomasHasTomado": {
+    "placeholders": {
+      "tomadas": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasEstadoTomada": "Tomada a las {hora}",
+  "@tomasEstadoTomada": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasEstadoAplazada": "Aplazada: te lo recordaremos a las {hora}",
+  "@tomasEstadoAplazada": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasEstadoPendiente": "Pendiente",
+  "tomasEstadoSinMarcar": "Sin marcar. Era a las {hora}.",
+  "@tomasEstadoSinMarcar": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasDesmarcarDescripcion": "Si la marcaste por error.",
+  "tomasDesmarcarSemantica": "Desmarcar {medicamento} de las {hora}",
+  "@tomasDesmarcarSemantica": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasMarcarSemantica": "Ya he tomado {medicamento} de las {hora}",
+  "@tomasMarcarSemantica": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "historialVacio": "Todavía no hay tomas que mostrar",
+  "historialVacioExplicacion": "Aquí verás las tomas de los últimos 7 días y cuáles marcaste como tomadas.",
+  "historialErrorCarga": "No se ha podido cargar el historial. Cierra la aplicación y vuelve a abrirla.",
+  "historialUltimosDias": "Últimos {dias} días.",
+  "@historialUltimosDias": {
+    "placeholders": {
+      "dias": {
+        "type": "String"
+      }
+    }
+  },
+  "historialMarcadas": "Marcadas: {tomadas} de {total}.",
+  "@historialMarcadas": {
+    "placeholders": {
+      "tomadas": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "historialTomada": "{hora} · {medicamento}: tomada a las {momento}",
+  "@historialTomada": {
+    "description": "{hora} es la hora prevista de la toma y {momento}, la hora a la que se marcó.",
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      },
+      "medicamento": {
+        "type": "String"
+      },
+      "momento": {
+        "type": "String"
+      }
+    }
+  },
+  "historialAplazada": "{hora} · {medicamento}: aplazada, sin marcar",
+  "@historialAplazada": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      },
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "historialPendiente": "{hora} · {medicamento}: pendiente",
+  "@historialPendiente": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      },
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "historialSinMarcar": "{hora} · {medicamento}: sin marcar",
+  "@historialSinMarcar": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      },
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "agendaCrearCita": "Crear cita",
+  "agendaCrearCitaDescripcion": "Apunta una cita nueva.",
+  "agendaPreguntaEliminar": "¿Seguro que quieres eliminar esta cita?",
+  "agendaDetalleEliminar": "{cita}\n{fecha}, a las {hora}",
+  "@agendaDetalleEliminar": {
+    "placeholders": {
+      "cita": {
+        "type": "String"
+      },
+      "fecha": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "agendaErrorEliminar": "No se ha podido eliminar la cita. Inténtalo otra vez.",
+  "agendaCitaEliminada": "Cita eliminada: {cita}",
+  "@agendaCitaEliminada": {
+    "placeholders": {
+      "cita": {
+        "type": "String"
+      }
+    }
+  },
+  "agendaCitaRecuperada": "Cita recuperada: {cita}",
+  "@agendaCitaRecuperada": {
+    "placeholders": {
+      "cita": {
+        "type": "String"
+      }
+    }
+  },
+  "agendaErrorCarga": "No se han podido cargar tus citas. Cierra la aplicación y vuelve a abrirla.",
+  "agendaVacio": "Todavía no tienes ninguna cita",
+  "agendaVacioExplicacion": "Pulsa el botón \"{boton}\" para apuntar tu primera cita.",
+  "@agendaVacioExplicacion": {
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "agendaProximas": "Próximas citas",
+  "agendaSinProximas": "No tienes citas próximas.",
+  "agendaPasadas": "Citas pasadas",
+  "agendaCitaPasada": "Esta cita ya ha pasado.",
+  "agendaModificarSemantica": "Modificar la cita {cita}",
+  "@agendaModificarSemantica": {
+    "placeholders": {
+      "cita": {
+        "type": "String"
+      }
+    }
+  },
+  "agendaEliminarSemantica": "Eliminar la cita {cita}",
+  "@agendaEliminarSemantica": {
+    "placeholders": {
+      "cita": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioCitaTituloModificar": "Modificar cita",
+  "formularioCitaGuardar": "Guardar cita",
+  "formularioCitaGuardada": "Cita guardada correctamente",
+  "formularioCitaErrorGuardar": "No se ha podido guardar la cita. Inténtalo otra vez.",
+  "formularioCitaMuyPronto": "La cita es muy pronto: no da tiempo a avisarte antes.",
+  "formularioCitaTeAvisaremos": "Te avisaremos {cuando}.",
+  "@formularioCitaTeAvisaremos": {
+    "description": "Por ejemplo: «Te avisaremos ese día a las 08:00 y una hora antes.»",
+    "placeholders": {
+      "cuando": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioCitaAvisoDiaAntes": "el día antes a las {hora}",
+  "@formularioCitaAvisoDiaAntes": {
+    "description": "Parte de «Te avisaremos el día antes a las 18:00, ese día a las 08:00 y una hora antes.»",
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioCitaAvisoMismoDia": "ese día a las {hora}",
+  "@formularioCitaAvisoMismoDia": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioCitaAvisoUnaHoraAntes": "una hora antes",
+  "formularioCitaResumenGuardada": "{cita}\n{fecha}, a las {hora}.",
+  "@formularioCitaResumenGuardada": {
+    "placeholders": {
+      "cita": {
+        "type": "String"
+      },
+      "fecha": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioCitaMotivo": "Motivo de la cita",
+  "formularioCitaMotivoDescripcion": "Por ejemplo: Médico de cabecera.",
+  "formularioCitaDictarMotivo": "Dictar el motivo",
+  "formularioCitaDictarMotivoIndicacion": "Di el motivo de la cita",
+  "formularioCitaFecha": "Fecha",
+  "formularioCitaFechaDescripcion": "¿Qué día es la cita?",
+  "formularioCitaHora": "Hora",
+  "formularioCitaHoraDescripcion": "¿A qué hora es la cita?",
+  "formularioCitaLugar": "Lugar (opcional)",
+  "formularioCitaLugarDescripcion": "Por ejemplo: Centro de salud.",
+  "formularioCitaNotas": "Notas (opcional)",
+  "formularioCitaNotasDescripcion": "Por ejemplo: llevar los análisis.",
+  "validadorCitaMotivoVacio": "Escribe el motivo de la cita. Por ejemplo: Médico de cabecera.",
+  "validadorCitaMotivoLargo": "El motivo es demasiado largo. Usa como máximo {maximo} letras.",
+  "@validadorCitaMotivoLargo": {
+    "placeholders": {
+      "maximo": {
+        "type": "String"
+      }
+    }
+  },
+  "validadorCitaDia": "Elige el día de la cita.",
+  "validadorCitaHora": "Elige la hora de la cita.",
+  "validadorCitaDiaPasado": "Ese día ya ha pasado. Elige hoy o un día futuro.",
+  "validadorCitaHoraPasada": "Esa hora ya ha pasado. Elige una hora más tarde.",
+  "validadorCitaLugarLargo": "El lugar es demasiado largo. Usa como máximo {maximo} letras.",
+  "@validadorCitaLugarLargo": {
+    "placeholders": {
+      "maximo": {
+        "type": "String"
+      }
+    }
+  },
+  "validadorCitaNotasLargas": "Las notas son demasiado largas. Usa como máximo {maximo} letras.",
+  "@validadorCitaNotasLargas": {
+    "placeholders": {
+      "maximo": {
+        "type": "String"
+      }
+    }
+  },
+  "emergenciasTitulo": "Emergencias",
+  "emergenciasLlamar": "Llamar",
+  "emergenciasLlamarAlNumero": "Llamar al {numero}",
+  "@emergenciasLlamarAlNumero": {
+    "placeholders": {
+      "numero": {
+        "type": "String"
+      }
+    }
+  },
+  "emergenciasLlamarA": "Llamar a {nombre}",
+  "@emergenciasLlamarA": {
+    "description": "Botón para llamar al familiar o cuidador, por ejemplo «Llamar a Ana».",
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "emergenciasAbriendoNumero": "Abriendo el teléfono para llamar al {numero}…",
+  "@emergenciasAbriendoNumero": {
+    "placeholders": {
+      "numero": {
+        "type": "String"
+      }
+    }
+  },
+  "emergenciasAbriendoNombre": "Abriendo el teléfono para llamar a {nombre}…",
+  "@emergenciasAbriendoNombre": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "emergenciasNoSeHaPodidoAbrir": "No se ha podido abrir el teléfono",
+  "emergenciasMarcaAMano": "Marca el {numero} a mano desde la aplicación de teléfono.",
+  "@emergenciasMarcaAMano": {
+    "placeholders": {
+      "numero": {
+        "type": "String"
+      }
+    }
+  },
+  "emergenciasIrAAjustes": "Ir a Ajustes",
+  "emergenciasIrAAjustesDescripcion": "Allí puedes guardar el número de emergencia.",
+  "emergenciasSinNumero": "Todavía no has guardado un número de emergencia",
+  "emergenciasSinNumeroExplicacion": "Para poder llamar desde aquí, primero escribe el número en Ajustes. Por ejemplo, el 112.",
+  "emergenciasPulsaParaLlamar": "Pulsa el botón para llamar al {numero}.",
+  "@emergenciasPulsaParaLlamar": {
+    "placeholders": {
+      "numero": {
+        "type": "String"
+      }
+    }
+  },
+  "emergenciasExplicacion": "Se abrirá el teléfono con el número ya escrito. Para hablar, pulsa el botón de llamada del teléfono.",
+  "ajustesSonidosActivados": "Sonidos activados",
+  "ajustesSonidosDesactivados": "Sonidos desactivados",
+  "ajustesVibracionActivada": "Vibración activada",
+  "ajustesVibracionDesactivada": "Vibración desactivada",
+  "ajustesLecturaActivada": "Lectura en voz alta activada",
+  "ajustesLecturaDesactivada": "Lectura en voz alta desactivada",
+  "ajustesSinVozTitulo": "Este teléfono no puede leer en voz alta",
+  "ajustesSinVozMensaje": "Le falta la voz en español. Se puede instalar en los ajustes del teléfono, en Accesibilidad, opción \"Texto a voz\".",
+  "@ajustesSinVozMensaje": {
+    "description": "Al traducir, cambiar «en español» por el idioma de la traducción: la app lee en voz alta en el idioma de sus textos."
+  },
+  "ajustesSinVozMensajeIphone": "Le falta la voz en español. Se puede descargar en los ajustes del iPhone: Accesibilidad → Contenido leído → Voces.",
+  "@ajustesSinVozMensajeIphone": {
+    "description": "En un iPhone, en lugar de ajustesSinVozMensaje: dónde se descargan las voces. Al traducir, cambiar «en español» por el idioma de la traducción."
+  },
+  "ajustesNumeroGuardado": "Número de emergencia guardado: {numero}",
+  "@ajustesNumeroGuardado": {
+    "placeholders": {
+      "numero": {
+        "type": "String"
+      }
+    }
+  },
+  "ajustesContactoGuardado": "Contacto guardado: {nombre}, {numero}",
+  "@ajustesContactoGuardado": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      },
+      "numero": {
+        "type": "String"
+      }
+    }
+  },
+  "ajustesContactoBorrado": "Contacto del familiar borrado",
+  "ajustesCambiosAlMomento": "Los cambios se guardan al momento.",
+  "ajustesActivarSonidos": "Activar sonidos",
+  "ajustesActivarSonidosDescripcion": "Los avisos sonarán.",
+  "ajustesActivarVibracion": "Activar vibración",
+  "ajustesActivarVibracionDescripcion": "El teléfono vibrará con cada aviso.",
+  "ajustesActivarNotificaciones": "Activar notificaciones",
+  "ajustesActivarNotificacionesDescripcion": "Recibirás avisos de tus medicinas y de tus citas.",
+  "ajustesProbarAviso": "Probar aviso",
+  "ajustesProbarAvisoDescripcion": "Envía un aviso ahora para comprobar cómo suena y se ve.",
+  "ajustesRepetirAvisos": "Repetir los avisos",
+  "ajustesRepetirAvisosDescripcion": "Cuándo te avisamos otra vez si no marcas una toma, y cuánto espera el botón \"{boton}\".",
+  "@ajustesRepetirAvisosDescripcion": {
+    "description": "{boton} es el botón de los avisos, por ejemplo «Recordar en 10 min».",
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "ajustesAvisosDiscretos": "Avisos discretos",
+  "ajustesAvisosDiscretosDescripcion": "Los avisos no dirán qué medicina toca ni el motivo de la cita, ni llevarán la foto de la caja: así no se verán en la pantalla de bloqueo. Al tocar el aviso, la aplicación te lo dirá.",
+  "ajustesAvisosDiscretosActivados": "Avisos discretos activados",
+  "ajustesAvisosDiscretosDesactivados": "Avisos discretos desactivados",
+  "repetirSinMarcarTitulo": "Si no marcas la toma",
+  "repetirSinMarcarDescripcion": "Te avisamos una vez más, por si no oíste el primer aviso.",
+  "repetirALosMinutos": "A los {minutos} minutos",
+  "@repetirALosMinutos": {
+    "description": "Opción: el aviso se repite 15 o 30 minutos después de la hora de la toma.",
+    "placeholders": {
+      "minutos": {
+        "type": "int"
+      }
+    }
+  },
+  "repetirALaHora": "A la hora",
+  "@repetirALaHora": {
+    "description": "Opción: el aviso se repite una hora después de la hora de la toma."
+  },
+  "repetirNunca": "No repetir el aviso",
+  "repetirEjemplo": "Una toma de las {hora} se repite a las {repeticion}.",
+  "@repetirEjemplo": {
+    "description": "Por ejemplo: «Una toma de las 08:00 se repite a las 08:30.»",
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      },
+      "repeticion": {
+        "type": "String"
+      }
+    }
+  },
+  "repetirNuncaDescripcion": "Solo suena el aviso de su hora.",
+  "repetirAplazarTitulo": "Recordar más tarde",
+  "repetirAplazarDescripcion": "Los avisos de las tomas llevan un botón para que te lo recordemos un poco después.",
+  "repetirAplazarEjemplo": "Si lo pulsas a las {hora}, te lo recordamos a las {despues}.",
+  "@repetirAplazarEjemplo": {
+    "description": "Por ejemplo: «Si lo pulsas a las 08:00, te lo recordamos a las 08:10.»",
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      },
+      "despues": {
+        "type": "String"
+      }
+    }
+  },
+  "repetirGuardado": "Guardado: {opcion}",
+  "@repetirGuardado": {
+    "description": "Mensaje al elegir una opción, por ejemplo «Guardado: A los 15 minutos».",
+    "placeholders": {
+      "opcion": {
+        "type": "String"
+      }
+    }
+  },
+  "ajustesLeerEnVozAlta": "Leer en voz alta",
+  "ajustesLeerEnVozAltaDescripcion": "Leerá los avisos al abrirlos y podrás escuchar las tomas de hoy.",
+  "ajustesNumeroEmergencia": "Nº de emergencia",
+  "ajustesNumeroEmergenciaDescripcion": "El número al que llamará el botón de emergencias. Por ejemplo: 112.",
+  "ajustesGuardarNumero": "Guardar número",
+  "ajustesNombreFamiliar": "Nombre de un familiar",
+  "ajustesNombreFamiliarDescripcion": "Otra persona a la que podrás llamar desde Emergencias. Por ejemplo: Mi hija Ana.",
+  "ajustesTelefonoFamiliar": "Teléfono del familiar",
+  "ajustesGuardarContacto": "Guardar contacto",
+  "ajustesGuardarContactoDescripcion": "Para borrarlo, deja los dos campos vacíos.",
+  "ajustesTamanoTexto": "Ajustar tamaño de texto",
+  "ajustesTamanoTextoDescripcion": "Haz las letras más grandes o más pequeñas.",
+  "ajustesTema": "Ajustar tema",
+  "ajustesTemaDescripcion": "Cambia los colores de la aplicación.",
+  "compartirTitulo": "Compartir y copia de seguridad",
+  "ajustesCompartirDescripcion": "Envía tu medicación al médico o a la familia y guarda tus datos para no perderlos.",
+  "permisosNotificacionesActivadas": "Notificaciones activadas",
+  "permisosNotificacionesDesactivadas": "Notificaciones desactivadas",
+  "permisosDenegado": "El teléfono no ha dado permiso para mostrar avisos, así que siguen desactivados.",
+  "permisosHoraExactaTitulo": "Avisos a la hora exacta",
+  "permisosHoraExactaMensaje": "Las notificaciones ya están activadas. Para que los avisos lleguen justo a su hora, el teléfono necesita un permiso más.\n\nSi pulsas \"{boton}\" se abrirá una pantalla del teléfono: activa la opción y vuelve con el botón Atrás.",
+  "@permisosHoraExactaMensaje": {
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "permisosDarPermiso": "Dar permiso",
+  "permisosHoraExactaConcedido": "Listo: los avisos llegarán a su hora exacta.",
+  "permisosHoraExactaDenegado": "Sin ese permiso, los avisos pueden llegar unos minutos tarde.",
+  "permisosFaltaTitulo": "Falta el permiso del teléfono",
+  "permisosFaltaMensaje": "{explicacion}\n\nPulsa \"{boton}\", activa las notificaciones y vuelve con el botón Atrás.",
+  "@permisosFaltaMensaje": {
+    "placeholders": {
+      "explicacion": {
+        "type": "String"
+      },
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "permisosAbrirAjustes": "Abrir ajustes del teléfono",
+  "permisosPruebaEnviada": "Aviso de prueba enviado. Mira la parte de arriba de la pantalla.",
+  "permisosPruebaDesactivadasTitulo": "Las notificaciones están desactivadas",
+  "permisosPruebaDesactivadasMensaje": "Activa primero \"{interruptor}\" y después vuelve a pulsar \"{boton}\".",
+  "@permisosPruebaDesactivadasMensaje": {
+    "placeholders": {
+      "interruptor": {
+        "type": "String"
+      },
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "permisosPruebaSinPermiso": "El teléfono no deja mostrar los avisos de esta aplicación.",
+  "temaPredeterminado": "Tema predeterminado",
+  "temaPredeterminadoDescripcion": "Fondo azul claro y letras negras.",
+  "temaOscuro": "Tema oscuro",
+  "temaOscuroDescripcion": "Fondo oscuro y letras blancas. Cansa menos la vista con poca luz.",
+  "temaAlternativo": "Tema alternativo",
+  "temaAlternativoDescripcion": "Fondo amarillo suave y letras negras. Reduce los reflejos.",
+  "temaTitulo": "Tema",
+  "temaAplicar": "Aplicar este tema",
+  "temaAplicado": "Tema aplicado: {tema}",
+  "@temaAplicado": {
+    "placeholders": {
+      "tema": {
+        "type": "String"
+      }
+    }
+  },
+  "temaToca": "Toca un tema para verlo en la muestra.",
+  "temaMuestra": "Muestra: {tema}",
+  "@temaMuestra": {
+    "placeholders": {
+      "tema": {
+        "type": "String"
+      }
+    }
+  },
+  "temaYaLoUsas": "Este es el tema que ya usas.",
+  "temaAhoraUsas": "Ahora usas: {tema}.",
+  "@temaAhoraUsas": {
+    "placeholders": {
+      "tema": {
+        "type": "String"
+      }
+    }
+  },
+  "temaElegido": "Elegido",
+  "temaEnUso": "En uso",
+  "temaSeparadorEstado": " · ",
+  "temaMuestraTexto": "Así se verán las pantallas con este tema.",
+  "temaMuestraBoton": "Botón de ejemplo",
+  "temaMuestraInterruptor": "Interruptor de ejemplo",
+  "temaMuestraInterruptorDescripcion": "Verde es activado.",
+  "tamanoTitulo": "Tamaño de texto",
+  "tamanoAumentar": "Aumentar (+)",
+  "tamanoReducir": "Reducir (−)",
+  "tamanoMuestraTexto": "Así se verán los textos de la aplicación. Por ejemplo: Paracetamol, 3 tomas al día, cada 8 horas.",
+  "tamanoActual": "Tamaño actual: {tamano}",
+  "@tamanoActual": {
+    "placeholders": {
+      "tamano": {
+        "type": "String"
+      }
+    }
+  },
+  "tamanoActualNormal": "Tamaño actual: {tamano} (normal)",
+  "@tamanoActualNormal": {
+    "placeholders": {
+      "tamano": {
+        "type": "String"
+      }
+    }
+  },
+  "tamanoActualMinimo": "Tamaño actual: {tamano} (mínimo)",
+  "@tamanoActualMinimo": {
+    "placeholders": {
+      "tamano": {
+        "type": "String"
+      }
+    }
+  },
+  "tamanoActualMaximo": "Tamaño actual: {tamano} (máximo)",
+  "@tamanoActualMaximo": {
+    "placeholders": {
+      "tamano": {
+        "type": "String"
+      }
+    }
+  },
+  "tamanoPuedesElegir": "Puedes elegir entre {minimo} y {maximo}. El cambio se aplica a toda la aplicación.",
+  "@tamanoPuedesElegir": {
+    "placeholders": {
+      "minimo": {
+        "type": "String"
+      },
+      "maximo": {
+        "type": "String"
+      }
+    }
+  },
+  "tamanoMasGrandes": "Letras más grandes.",
+  "tamanoYaMaximo": "Ya está en el tamaño máximo.",
+  "tamanoMasPequenas": "Letras más pequeñas.",
+  "tamanoYaMinimo": "Ya está en el tamaño mínimo.",
+  "tamanoMuestra": "Muestra",
+  "ajustesFraseDePruebaVoz": "Así sonará la voz. Leeré tus avisos y tus tomas de hoy.",
+  "validadorFamiliarNombreVacio": "Escribe cómo se llama. Por ejemplo: Mi hija Ana.",
+  "validadorFamiliarNombreLargo": "El nombre es demasiado largo: como mucho {maximo} letras.",
+  "@validadorFamiliarNombreLargo": {
+    "placeholders": {
+      "maximo": {
+        "type": "String"
+      }
+    }
+  },
+  "validadorFamiliarNumeroVacio": "Escribe su número de teléfono.",
+  "validadorTelefonoVacio": "Escribe un número de teléfono. Por ejemplo: 112.",
+  "validadorTelefonoSoloNumeros": "Escribe solo números. Por ejemplo: 112 o 600123456.",
+  "validadorTelefonoCorto": "El número es demasiado corto. Debe tener al menos {minimo} cifras.",
+  "@validadorTelefonoCorto": {
+    "placeholders": {
+      "minimo": {
+        "type": "String"
+      }
+    }
+  },
+  "validadorTelefonoLargo": "El número es demasiado largo. Revisa que esté bien escrito.",
+  "asistenteTitulo": "Primeros pasos",
+  "asistenteEmpezar": "Empezar",
+  "asistenteSaltar": "Saltar estos pasos",
+  "asistenteSaltarDescripcion": "Ir directamente al menú principal.",
+  "asistenteSiguiente": "Siguiente",
+  "asistenteTerminar": "Empezar a usar la aplicación",
+  "asistenteHola": "Hola",
+  "asistenteBienvenida": "Vamos a preparar la aplicación en 3 pasos: el tamaño de la letra, los avisos y el número de emergencia.",
+  "asistenteCambiarEnAjustes": "Todo se puede cambiar más tarde en Ajustes.",
+  "asistentePaso": "Paso {numero} de {total}: {titulo}",
+  "@asistentePaso": {
+    "description": "Encabezado de cada paso, por ejemplo «Paso 1 de 3: Tamaño de la letra».",
+    "placeholders": {
+      "numero": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      },
+      "titulo": {
+        "type": "String"
+      }
+    }
+  },
+  "asistenteTamanoTitulo": "Tamaño de la letra",
+  "asistenteTamanoExplicacion": "¿Lees bien este texto? Si te cuesta, haz las letras más grandes.",
+  "asistenteAvisosTitulo": "Avisos de medicinas y citas",
+  "asistenteAvisosExplicacion": "Te avisaremos a la hora de cada medicina y antes de cada cita, con sonido y vibración.",
+  "asistenteActivarAvisos": "Activar los avisos",
+  "asistenteActivarAvisosDescripcion": "El teléfono te pedirá permiso: pulsa \"Permitir\".",
+  "@asistenteActivarAvisosDescripcion": {
+    "description": "«Permitir» es el botón del aviso de permiso de Android en ese idioma."
+  },
+  "asistenteSiPrefieresNo": "Si prefieres no activarlos ahora, pulsa \"{boton}\".",
+  "@asistenteSiPrefieresNo": {
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "asistenteConSonido": "con sonido",
+  "asistenteSinSonido": "sin sonido",
+  "asistenteConVibracion": "con vibración",
+  "asistenteSinVibracion": "sin vibración",
+  "asistenteAvisosActivados": "Los avisos están activados, {sonido} y {vibracion}.",
+  "@asistenteAvisosActivados": {
+    "placeholders": {
+      "sonido": {
+        "type": "String"
+      },
+      "vibracion": {
+        "type": "String"
+      }
+    }
+  },
+  "asistenteProbarAvisoDescripcion": "Envía un aviso ahora para ver cómo suena y se ve.",
+  "asistenteEmergenciaTitulo": "Número de emergencia",
+  "asistenteEmergenciaExplicacion": "El botón de emergencias llamará a este número. Puede ser el 112 o el de un familiar.",
+  "asistenteEmergenciaDescripcion": "Si no quieres ponerlo ahora, déjalo vacío.",
+  "asistenteTodoListo": "Todo listo",
+  "asistenteResumenTamano": "Tamaño de la letra: {tamano}.",
+  "@asistenteResumenTamano": {
+    "placeholders": {
+      "tamano": {
+        "type": "String"
+      }
+    }
+  },
+  "asistenteResumenAvisosActivados": "Avisos activados.",
+  "asistenteResumenAvisosDesactivados": "Avisos desactivados. Puedes activarlos en Ajustes.",
+  "asistenteResumenNumero": "Número de emergencia: {numero}.",
+  "@asistenteResumenNumero": {
+    "placeholders": {
+      "numero": {
+        "type": "String"
+      }
+    }
+  },
+  "asistenteResumenSinNumero": "Sin número de emergencia. Puedes ponerlo en Ajustes.",
+  "asistenteTambienEnAjustes": "En Ajustes también puedes elegir los colores y activar la lectura en voz alta.",
+  "compartirEnviarInforme": "Enviar mi medicación y citas",
+  "compartirEnviarInformeDescripcion": "Por WhatsApp, correo… En la pantalla siguiente eliges a quién.",
+  "compartirImprimir": "Imprimir",
+  "compartirImprimirDescripcion": "En una impresora conectada al teléfono, o guardarlo como PDF.",
+  "compartirGuardarCopia": "Guardar una copia",
+  "compartirGuardarCopiaDescripcion": "En Google Drive o en la carpeta de descargas.",
+  "compartirEnviarCopia": "Enviar una copia",
+  "compartirEnviarCopiaDescripcion": "Por correo o WhatsApp: a tu propio correo o a un familiar.",
+  "compartirRecuperar": "Recuperar una copia",
+  "compartirRecuperarDescripcion": "Cambia los datos de este teléfono por los de una copia. Antes te preguntará.",
+  "compartirSiRecuperar": "Sí, recuperar la copia",
+  "compartirErrorDocumento": "No se ha podido preparar el documento. Inténtalo otra vez.",
+  "compartirErrorImprimir": "No se ha podido abrir la impresión. Inténtalo otra vez.",
+  "compartirCopiaGuardada": "Copia de seguridad guardada.",
+  "compartirErrorGuardarCopia": "No se ha podido guardar la copia. Inténtalo otra vez.",
+  "compartirErrorEnviarCopia": "No se ha podido preparar la copia. Inténtalo otra vez.",
+  "compartirNoSePuedeRecuperar": "No se puede recuperar este fichero",
+  "compartirSustitucionVacio": "Se pondrá en este teléfono lo que hay en la copia.",
+  "compartirSustitucion": "Se borrará lo que hay ahora en este teléfono ({actual}) y se pondrá lo de la copia.",
+  "@compartirSustitucion": {
+    "description": "{actual} es un resumen de los datos, por ejemplo «2 medicamentos y 1 cita».",
+    "placeholders": {
+      "actual": {
+        "type": "String"
+      }
+    }
+  },
+  "compartirPreguntaRecuperar": "¿Recuperar esta copia?",
+  "compartirCopiaDel": "Copia del {fecha}, a las {hora}: {resumen}.",
+  "@compartirCopiaDel": {
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      },
+      "resumen": {
+        "type": "String"
+      }
+    }
+  },
+  "compartirCopiaEmergencia": "Número de emergencia: {numero}.",
+  "@compartirCopiaEmergencia": {
+    "description": "En la pregunta de recuperar una copia: el número que se pondrá en Emergencias.",
+    "placeholders": {
+      "numero": {
+        "type": "String"
+      }
+    }
+  },
+  "compartirCopiaSinEmergencia": "Sin número de emergencia.",
+  "compartirCopiaFamiliar": "Familiar: {familiar}.",
+  "@compartirCopiaFamiliar": {
+    "description": "{familiar} es como «Mi hija Ana, 600123456».",
+    "placeholders": {
+      "familiar": {
+        "type": "String"
+      }
+    }
+  },
+  "compartirCopiaSinFamiliar": "Sin familiar.",
+  "compartirCopiaRecuperada": "Copia recuperada",
+  "compartirYaTienes": "Ya tienes en este teléfono {resumen}.",
+  "@compartirYaTienes": {
+    "placeholders": {
+      "resumen": {
+        "type": "String"
+      }
+    }
+  },
+  "compartirAvisosDesactivados": "Los avisos están desactivados en este teléfono: actívalos en Ajustes para recibirlos.",
+  "compartirErrorRecuperar": "No se ha podido recuperar la copia. Inténtalo otra vez.",
+  "compartirParaElMedico": "Para el médico o la familia",
+  "compartirParaElMedicoExplicacion": "Un documento con tus medicinas, tus tomas de la última semana y tus próximas citas.",
+  "compartirCopiaDeSeguridad": "Copia de seguridad",
+  "compartirCopiaExplicacion": "Guarda en un fichero todos tus datos: medicinas con sus fotos, tomas, citas y ajustes. En un móvil nuevo, instala la aplicación y pulsa \"{boton}\".",
+  "@compartirCopiaExplicacion": {
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "compartirUnMomento": "Un momento, por favor…",
+  "copiaNoEsCopia": "Este fichero no es una copia de {app}, o está dañado.",
+  "@copiaNoEsCopia": {
+    "description": "{app} es el nombre de la aplicación (appTitulo).",
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "copiaDemasiadoGrande": "Este fichero es demasiado grande para ser una copia de {app}.",
+  "@copiaDemasiadoGrande": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "copiaVersionNueva": "Esta copia es de una versión más nueva de la aplicación. Actualiza la aplicación y vuelve a intentarlo.",
+  "copiaNombreFichero": "Copia de {app} {fecha}",
+  "@copiaNombreFichero": {
+    "description": "Nombre del fichero de la copia (sin «.json»). {fecha} va en formato AAAA-MM-DD.",
+    "placeholders": {
+      "app": {
+        "type": "String"
+      },
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "copiaMedicamentos": "{cantidad, plural, =1{1 medicamento} other{{cantidad} medicamentos}}",
+  "@copiaMedicamentos": {
+    "placeholders": {
+      "cantidad": {
+        "type": "int"
+      }
+    }
+  },
+  "copiaCitas": "{cantidad, plural, =1{1 cita} other{{cantidad} citas}}",
+  "@copiaCitas": {
+    "placeholders": {
+      "cantidad": {
+        "type": "int"
+      }
+    }
+  },
+  "copiaTomas": "{cantidad, plural, =1{1 toma anotada} other{{cantidad} tomas anotadas}}",
+  "@copiaTomas": {
+    "placeholders": {
+      "cantidad": {
+        "type": "int"
+      }
+    }
+  },
+  "copiaAsunto": "Copia de seguridad de {app}",
+  "@copiaAsunto": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "informeTitulo": "Mi medicación y mis citas",
+  "informeNombreFichero": "Medicación y citas {fecha}",
+  "@informeNombreFichero": {
+    "description": "Nombre del fichero PDF (sin «.pdf»). {fecha} va como 25-10-2026.",
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "informePagina": "Página {pagina} de {total}",
+  "@informePagina": {
+    "placeholders": {
+      "pagina": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "informeActualizado": "Actualizado el {fecha}, a las {hora}.",
+  "@informeActualizado": {
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "informeTelefonosEmergencia": "Teléfonos de emergencia: {telefonos}.",
+  "@informeTelefonosEmergencia": {
+    "placeholders": {
+      "telefonos": {
+        "type": "String"
+      }
+    }
+  },
+  "informeContactoFamiliar": "{nombre}: {numero}",
+  "@informeContactoFamiliar": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      },
+      "numero": {
+        "type": "String"
+      }
+    }
+  },
+  "informeSeparadorTelefonos": " · ",
+  "informeMedicamentos": "Medicamentos",
+  "informeSinMedicamentos": "No hay medicamentos registrados.",
+  "informeTomasYHoras": "{tomas}: {horas}",
+  "@informeTomasYHoras": {
+    "description": "Por ejemplo: «3 tomas al día, cada 8 horas: 08:00, 16:00 y 00:00».",
+    "placeholders": {
+      "tomas": {
+        "type": "String"
+      },
+      "horas": {
+        "type": "String"
+      }
+    }
+  },
+  "informeInstrucciones": "Instrucciones: {instrucciones}",
+  "@informeInstrucciones": {
+    "placeholders": {
+      "instrucciones": {
+        "type": "String"
+      }
+    }
+  },
+  "informeTomasUltimosDias": "Tomas de los últimos {dias} días",
+  "@informeTomasUltimosDias": {
+    "placeholders": {
+      "dias": {
+        "type": "String"
+      }
+    }
+  },
+  "informeColumnaDia": "Día",
+  "informeColumnaTomadas": "Tomadas",
+  "informeColumnaSinMarcar": "Sin marcar",
+  "informeHoy": "Hoy",
+  "informeDiaFecha": "{dia} {numero}/{mes}",
+  "@informeDiaFecha": {
+    "description": "Primera columna de la tabla de tomas, por ejemplo «Hoy 25/10» o «sábado 24/10».",
+    "placeholders": {
+      "dia": {
+        "type": "String"
+      },
+      "numero": {
+        "type": "String"
+      },
+      "mes": {
+        "type": "String"
+      }
+    }
+  },
+  "informeTomadas": "{tomadas} de {total}",
+  "@informeTomadas": {
+    "placeholders": {
+      "tomadas": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "informeTomadasConPendientes": "{tomadas} de {total} ({pendientes} por llegar)",
+  "@informeTomadasConPendientes": {
+    "placeholders": {
+      "tomadas": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      },
+      "pendientes": {
+        "type": "String"
+      }
+    }
+  },
+  "informeTomaSinMarcar": "{hora} {medicamento}",
+  "@informeTomaSinMarcar": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      },
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "informeYMas": "{lista} y {mas} más",
+  "@informeYMas": {
+    "placeholders": {
+      "lista": {
+        "type": "String"
+      },
+      "mas": {
+        "type": "String"
+      }
+    }
+  },
+  "informeSinTomas": "No hay tomas en estos días.",
+  "informeProximasCitas": "Próximas citas",
+  "informeSinCitas": "No hay citas próximas.",
+  "informeCitaCuando": "{fecha}, a las {hora}",
+  "@informeCitaCuando": {
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "informeLugar": "Lugar: {lugar}",
+  "@informeLugar": {
+    "placeholders": {
+      "lugar": {
+        "type": "String"
+      }
+    }
+  },
+  "informeNotas": "Notas: {notas}",
+  "@informeNotas": {
+    "placeholders": {
+      "notas": {
+        "type": "String"
+      }
+    }
+  },
+  "canalConSonidoYVibracion": "Avisos con sonido y vibración",
+  "canalConSonido": "Avisos con sonido",
+  "canalConVibracion": "Avisos con vibración",
+  "canalSilencioso": "Avisos silenciosos",
+  "canalDescripcion": "Avisos de tomas de medicamentos y de citas.",
+  "avisoNotaRenovar": "Abre la aplicación para seguir recibiendo estos avisos.",
+  "avisoTomaTitulo": "Hora de tu medicina",
+  "avisoAplazadoTitulo": "Recuerda tu medicina",
+  "avisoRepeticionTitulo": "¿Has tomado tu medicina?",
+  "avisoTomaCuerpo": "Toma {medicamento} ({hora}).",
+  "@avisoTomaCuerpo": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoTomaCuerpoConDosis": "Toma {medicamento}: {dosis} ({hora}).",
+  "@avisoTomaCuerpoConDosis": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "dosis": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoRepeticionCuerpo": "Era a las {hora}: {medicamento}. Si ya la has tomado, pulsa \"{boton}\".",
+  "@avisoRepeticionCuerpo": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      },
+      "medicamento": {
+        "type": "String"
+      },
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoRepeticionCuerpoConDosis": "Era a las {hora}: {medicamento}: {dosis}. Si ya la has tomado, pulsa \"{boton}\".",
+  "@avisoRepeticionCuerpoConDosis": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      },
+      "medicamento": {
+        "type": "String"
+      },
+      "dosis": {
+        "type": "String"
+      },
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoTomaCuerpoDiscreto": "La de las {hora}. Toca aquí para ver cuál es.",
+  "@avisoTomaCuerpoDiscreto": {
+    "description": "Con \"Avisos discretos\": el aviso de una toma sin el nombre de la medicina (el título es \"Hora de tu medicina\").",
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoRepeticionCuerpoDiscreto": "Era a las {hora}. Toca aquí para ver cuál es.",
+  "@avisoRepeticionCuerpoDiscreto": {
+    "description": "Con \"Avisos discretos\": la repetición de una toma sin marcar (el título es \"¿Has tomado tu medicina?\").",
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoExistenciasCuerpoDiscreto": "De una de tus medicinas. Toca aquí para ver cuál es.",
+  "@avisoExistenciasCuerpoDiscreto": {
+    "description": "Con \"Avisos discretos\": el aviso de que quedan pocas pastillas (el título es \"Te quedan pocas pastillas\")."
+  },
+  "avisoRecetaCuerpoDiscreto": "La de una de tus medicinas. Toca aquí para ver cuál es.",
+  "@avisoRecetaCuerpoDiscreto": {
+    "description": "Con \"Avisos discretos\": el aviso de renovar la receta (el título es \"Renueva la receta\")."
+  },
+  "avisoCitaCuerpoDiscreto": "A las {hora}. Toca aquí para ver cuál es.",
+  "@avisoCitaCuerpoDiscreto": {
+    "description": "Con \"Avisos discretos\": el aviso de una cita sin el motivo ni el lugar (el título es \"Hoy tienes una cita\").",
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoCitaHoy": "Hoy tienes una cita",
+  "avisoCitaManana": "Mañana tienes una cita",
+  "@avisoCitaManana": {
+    "description": "Título del aviso de una cita, la tarde del día anterior (a las 18:00)."
+  },
+  "avisoCitaUnaHora": "Tu cita es dentro de 1 hora",
+  "avisoCitaCuerpo": "{cita} a las {hora}.",
+  "@avisoCitaCuerpo": {
+    "placeholders": {
+      "cita": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoCitaCuerpoConLugar": "{cita} a las {hora} en {lugar}.",
+  "@avisoCitaCuerpoConLugar": {
+    "placeholders": {
+      "cita": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      },
+      "lugar": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoAplazar": "Recordar en {minutos} min",
+  "avisoPruebaTitulo": "Aviso de prueba",
+  "avisoPruebaCuerpo": "Así te avisaremos de tus medicinas y de tus citas.",
+  "vozMedicamento": "{medicamento}.",
+  "@vozMedicamento": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "vozMedicamentoConDosis": "{medicamento}, {dosis}.",
+  "@vozMedicamentoConDosis": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "dosis": {
+        "type": "String"
+      }
+    }
+  },
+  "vozToma": "Medicina de las {hora}: {detalle} Cuando la tomes, pulsa: {boton}.",
+  "@vozToma": {
+    "description": "Se lee al abrir un aviso de toma. {detalle} es, por ejemplo, «Paracetamol, 1 pastilla. Con el desayuno.» y {boton}, el texto del botón «Ya la he tomado».",
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      },
+      "detalle": {
+        "type": "String"
+      },
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "vozCita": "Tienes una cita: {cita}, {cuando}.",
+  "@vozCita": {
+    "placeholders": {
+      "cita": {
+        "type": "String"
+      },
+      "cuando": {
+        "type": "String"
+      }
+    }
+  },
+  "vozCitaConLugar": "Tienes una cita: {cita}, {cuando}, en {lugar}.",
+  "@vozCitaConLugar": {
+    "placeholders": {
+      "cita": {
+        "type": "String"
+      },
+      "cuando": {
+        "type": "String"
+      },
+      "lugar": {
+        "type": "String"
+      }
+    }
+  },
+  "vozSinTomas": "Hoy no tienes ninguna toma.",
+  "vozTotalTomas": "{cantidad, plural, =1{una toma} other{{cantidad} tomas}}",
+  "@vozTotalTomas": {
+    "placeholders": {
+      "cantidad": {
+        "type": "int"
+      }
+    }
+  },
+  "vozTodasTomadas": "Hoy tienes {total} y ya las has tomado todas.",
+  "@vozTodasTomadas": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "vozHasTomado": "Hoy tienes {total}. Has tomado {tomadas}.",
+  "@vozHasTomado": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      },
+      "tomadas": {
+        "type": "String"
+      }
+    }
+  },
+  "vozTeFaltan": "{cantidad, plural, =1{Te falta: {lista}} other{Te faltan: {lista}}}",
+  "@vozTeFaltan": {
+    "placeholders": {
+      "cantidad": {
+        "type": "int"
+      },
+      "lista": {
+        "type": "String"
+      }
+    }
+  },
+  "vozNombreConDosis": "{medicamento}, {dosis}",
+  "@vozNombreConDosis": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "dosis": {
+        "type": "String"
+      }
+    }
+  },
+  "vozFaltanteSinMarcar": "{medicamento}, de las {hora}, sin marcar.",
+  "@vozFaltanteSinMarcar": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "vozFaltanteAplazada": "{medicamento}, de las {hora}, aplazada.",
+  "@vozFaltanteAplazada": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "vozFaltantePendiente": "{medicamento}, a las {hora}.",
+  "@vozFaltantePendiente": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "vozHasDictado": "Has dictado: {texto}. Si no es correcto, vuelve a dictarlo o corrígelo con el teclado.",
+  "@vozHasDictado": {
+    "placeholders": {
+      "texto": {
+        "type": "String"
+      }
+    }
+  },
+  "vozNoPuedeDictar": "Este teléfono no permite dictar. Escríbelo con el teclado.",
+  "vozDictarDescripcion": "Dilo en voz alta y se escribirá solo.",
+  "respuestaAplazada": "Te lo recordaremos a las {hora}.",
+  "@respuestaAplazada": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "respuestaSinMedicamento": "Ese medicamento ya no está registrado.",
+  "estadoAvisosListos": "Los avisos están listos para llegar a su hora.",
+  "estadoAvisosSinPermiso": "El teléfono no deja a esta aplicación mostrar avisos, así que no llegarán.",
+  "estadoAvisosSinHoraExacta": "Falta el permiso de hora exacta: los avisos pueden llegar unos minutos tarde.",
+  "estadoAvisosAhorroBateria": "El ahorro de batería del teléfono puede retrasar los avisos o impedir que lleguen.",
+  "estadoAvisosBotonPermiso": "Dar permiso para los avisos",
+  "estadoAvisosBotonHoraExacta": "Dar permiso de hora exacta",
+  "estadoAvisosBotonBateria": "Quitar el ahorro de batería",
+  "estadoAvisosPermisoConcedido": "Listo: los avisos ya pueden llegar.",
+  "bateriaTitulo": "Ahorro de batería",
+  "bateriaMensaje": "Algunos teléfonos cierran las aplicaciones para ahorrar batería, y entonces los avisos llegan tarde o no llegan.\n\nSi pulsas \"{boton}\", se abrirá la pantalla de esta aplicación en los ajustes del teléfono. Toca \"Batería\" (o \"Uso de batería\"), elige \"Sin restricciones\" y vuelve con el botón Atrás.",
+  "@bateriaMensaje": {
+    "description": "\"Batería\", \"Uso de batería\" y \"Sin restricciones\" son los nombres de Android en ese idioma.",
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "bateriaAbrir": "Abrir los ajustes",
+  "menuAvisosSinPermiso": "Los avisos no pueden llegar: el teléfono no da permiso a esta aplicación.",
+  "formularioRecuperado": "Hemos recuperado lo que estabas escribiendo.",
+  "formularioRecuperadoConFoto": "Hemos recuperado lo que estabas escribiendo y la foto. Se guardará al pulsar \"{boton}\".",
+  "@formularioRecuperadoConFoto": {
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "fechaCorta": "{diaSemana}, {dia} de {mes}",
+  "@fechaCorta": {
+    "description": "Fecha sin el año, por ejemplo: domingo, 25 de octubre.",
+    "placeholders": {
+      "diaSemana": {
+        "type": "String"
+      },
+      "dia": {
+        "type": "String"
+      },
+      "mes": {
+        "type": "String"
+      }
+    }
+  },
+  "horarioDescripcionLibre": "{tomas, plural, =1{1 toma al día} other{{tomas} tomas al día}}",
+  "@horarioDescripcionLibre": {
+    "description": "Cuando las horas se eligen una a una (sin frecuencia fija).",
+    "placeholders": {
+      "tomas": {
+        "type": "int"
+      }
+    }
+  },
+  "semanaLunes": "lunes",
+  "@semanaLunes": {
+    "description": "Días de la semana en plural, para «los lunes», «los sábados»…"
+  },
+  "semanaMartes": "martes",
+  "semanaMiercoles": "miércoles",
+  "semanaJueves": "jueves",
+  "semanaViernes": "viernes",
+  "semanaSabado": "sábados",
+  "semanaDomingo": "domingos",
+  "diasSemanaFrase": "los {dias}",
+  "@diasSemanaFrase": {
+    "description": "Para meterlo en una frase: «Te avisaremos los lunes y jueves a las 09:00».",
+    "placeholders": {
+      "dias": {
+        "type": "String"
+      }
+    }
+  },
+  "diasCadaFrase": "cada {cada} días, empezando el {fecha}",
+  "@diasCadaFrase": {
+    "description": "Por ejemplo: «cada 2 días, empezando el domingo, 25 de octubre».",
+    "placeholders": {
+      "cada": {
+        "type": "String"
+      },
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "validadorMedicamentoHorasRepetidas": "Hay dos tomas a la misma hora. Cambia una de ellas.",
+  "validadorMedicamentoSinDias": "Elige al menos un día de la semana.",
+  "validadorMedicamentoCadaDias": "Elige cada cuántos días lo tomas: entre {minimo} y {maximo}.",
+  "@validadorMedicamentoCadaDias": {
+    "placeholders": {
+      "minimo": {
+        "type": "String"
+      },
+      "maximo": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoHorasTitulo": "¿A qué horas lo tomas?",
+  "formularioMedicamentoHorasDescripcion": "Elige cómo se reparten las tomas a lo largo del día.",
+  "formularioMedicamentoRepartidas": "Repartidas por igual",
+  "formularioMedicamentoRepartidasDescripcion": "Cada cierto número de horas, desde la primera toma.",
+  "formularioMedicamentoConcretas": "A horas concretas",
+  "formularioMedicamentoConcretasDescripcion": "Por ejemplo, con el desayuno, la comida y la cena.",
+  "formularioMedicamentoHoraToma": "Toma {numero}",
+  "@formularioMedicamentoHoraToma": {
+    "description": "Título del selector de hora de cada toma, con horas concretas: «Toma 1», «Toma 2»…",
+    "placeholders": {
+      "numero": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoHoraUnaToma": "Hora de la toma",
+  "formularioMedicamentoHoraUnaTomaDescripcion": "¿A qué hora lo tomas?",
+  "formularioMedicamentoDiasTitulo": "¿Qué días lo tomas?",
+  "formularioMedicamentoDiasDescripcion": "Elige si lo tomas a diario o solo algunos días.",
+  "formularioMedicamentoTodosLosDias": "Todos los días",
+  "formularioMedicamentoTodosLosDiasDescripcion": "Cada día, sin saltarse ninguno.",
+  "formularioMedicamentoAlgunosDias": "Algunos días de la semana",
+  "formularioMedicamentoAlgunosDiasDescripcion": "Por ejemplo, una pastilla que se toma los lunes.",
+  "formularioMedicamentoCadaVariosDias": "Cada varios días",
+  "formularioMedicamentoCadaVariosDiasDescripcion": "Por ejemplo, un día sí y otro no.",
+  "formularioMedicamentoCadaCuantosDias": "Cada cuántos días",
+  "formularioMedicamentoCadaDiasValor": "Cada {dias} días",
+  "@formularioMedicamentoCadaDiasValor": {
+    "placeholders": {
+      "dias": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoDiaMenos": "Un día menos entre tomas",
+  "formularioMedicamentoDiaMas": "Un día más entre tomas",
+  "formularioMedicamentoPrimerDia": "Primer día",
+  "formularioMedicamentoPrimerDiaDescripcion": "El primer día que lo tomas.",
+  "formularioMedicamentoAvisoDias": "Te avisaremos a las {horas} {dias}.",
+  "@formularioMedicamentoAvisoDias": {
+    "description": "Por ejemplo: «Te avisaremos a las 08:00 los lunes y jueves.» {dias} viene de diasSemanaFrase o diasCadaFrase.",
+    "placeholders": {
+      "dias": {
+        "type": "String"
+      },
+      "horas": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoAvisoDiasHasta": "Te avisaremos a las {horas} {dias}, hasta el {fecha}, incluido.",
+  "@formularioMedicamentoAvisoDiasHasta": {
+    "placeholders": {
+      "dias": {
+        "type": "String"
+      },
+      "horas": {
+        "type": "String"
+      },
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "medicamentoSinFechaDeFinSolo": "Sin fecha de fin",
+  "@medicamentoSinFechaDeFinSolo": {
+    "description": "Para las medicinas que no se toman todos los días (la línea de arriba ya dice cuáles)."
+  },
+  "medicamentoADemanda": "Cuando haga falta, sin avisos",
+  "@medicamentoADemanda": {
+    "description": "En la lista y en el PDF, en lugar de las tomas al día de un medicamento que no tiene horario."
+  },
+  "limitesMaximo": "{n, plural, =1{como mucho 1 vez al día} other{como mucho {n} veces al día}}",
+  "@limitesMaximo": {
+    "description": "Parte de «Como mucho 3 veces al día, con al menos 6 horas entre una y otra.» Empieza en minúscula: la app pone la mayúscula.",
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "limitesHoras": "{n, plural, =1{con al menos 1 hora entre una y otra} other{con al menos {n} horas entre una y otra}}",
+  "@limitesHoras": {
+    "description": "Parte de «Como mucho 3 veces al día, con al menos 6 horas entre una y otra.» (o sola, con mayúscula).",
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "formularioMedicamentoCuandoTitulo": "¿Cuándo lo tomas?",
+  "formularioMedicamentoCuandoDescripcion": "Elige si tiene un horario o si lo tomas solo cuando lo necesitas.",
+  "formularioMedicamentoConHorario": "Con un horario",
+  "formularioMedicamentoConHorarioDescripcion": "A sus horas. Te avisaremos de cada toma.",
+  "formularioMedicamentoADemanda": "Solo cuando haga falta",
+  "formularioMedicamentoADemandaDescripcion": "Por ejemplo, un calmante para el dolor. No hay avisos: cuando lo tomes, lo anotas en \"{pantalla}\".",
+  "@formularioMedicamentoADemandaDescripcion": {
+    "description": "{pantalla} es el título de la pantalla \"Tomas de hoy\".",
+    "placeholders": {
+      "pantalla": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoLimitesTitulo": "Cuánto se puede tomar (opcional)",
+  "formularioMedicamentoLimitesDescripcion": "Lo que diga el prospecto o tu médico. Si al anotar una toma te pasas, la aplicación te avisa.",
+  "formularioMedicamentoMaximoAlDia": "Como mucho, veces al día",
+  "formularioMedicamentoSinLimite": "Sin límite",
+  "formularioMedicamentoVeces": "{n, plural, =1{1 vez} other{{n} veces}}",
+  "@formularioMedicamentoVeces": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "formularioMedicamentoVezMenos": "Una vez menos al día",
+  "formularioMedicamentoVezMas": "Una vez más al día",
+  "formularioMedicamentoHorasEntreTomas": "Horas entre una toma y otra, como mínimo",
+  "formularioMedicamentoSinMinimo": "Sin mínimo",
+  "formularioMedicamentoHorasValor": "{n, plural, =1{1 hora} other{{n} horas}}",
+  "@formularioMedicamentoHorasValor": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "formularioMedicamentoAvisoADemanda": "Sin avisos. Cuando lo tomes, anótalo en \"{pantalla}\".",
+  "@formularioMedicamentoAvisoADemanda": {
+    "description": "Resumen del formulario. {pantalla} es el título de la pantalla \"Tomas de hoy\".",
+    "placeholders": {
+      "pantalla": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoAvisoADemandaHasta": "Sin avisos. Podrás anotarlo en \"{pantalla}\" hasta el {fecha}, incluido.",
+  "@formularioMedicamentoAvisoADemandaHasta": {
+    "description": "Resumen del formulario con fecha de fin. {pantalla} es el título de la pantalla \"Tomas de hoy\".",
+    "placeholders": {
+      "pantalla": {
+        "type": "String"
+      },
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoResumenADemanda": "{medicamento}: cuando haga falta, sin avisos.",
+  "@formularioMedicamentoResumenADemanda": {
+    "description": "Mensaje al guardar un medicamento que no tiene horario.",
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasADemandaTitulo": "Cuando haga falta",
+  "tomasADemandaExplicacion": "Si tomas alguno, pulsa \"{boton}\" para anotarlo.",
+  "@tomasADemandaExplicacion": {
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasADemandaMarcar": "Lo he tomado ahora",
+  "tomasADemandaMarcarSemantica": "He tomado {medicamento} ahora",
+  "@tomasADemandaMarcarSemantica": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasADemandaNingunaHoy": "Hoy no lo has tomado",
+  "tomasADemandaMaximo": "{n, plural, =1{Hoy ya lo has tomado la vez que se puede} other{Hoy ya lo has tomado las {n} veces que se puede}}",
+  "@tomasADemandaMaximo": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tomasADemandaProximaHoy": "La próxima, a partir de las {hora}",
+  "@tomasADemandaProximaHoy": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasADemandaProximaManana": "La próxima, mañana a partir de las {hora}",
+  "@tomasADemandaProximaManana": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasADemandaAvisoTitulo": "Es más de lo que se puede",
+  "@tomasADemandaAvisoTitulo": {
+    "description": "Título del aviso al pulsar «Lo he tomado ahora» si se pasa del máximo al día o es antes de tiempo."
+  },
+  "tomasADemandaAvisoMaximo": "{n, plural, =1{Hoy ya has tomado {medicamento} 1 vez, que es el máximo al día.} other{Hoy ya has tomado {medicamento} {n} veces, que es el máximo al día.}}",
+  "@tomasADemandaAvisoMaximo": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasADemandaAvisoPronto": "{horas, plural, =1{Entre una toma de {medicamento} y otra tiene que pasar al menos 1 hora.} other{Entre una toma de {medicamento} y otra tienen que pasar al menos {horas} horas.}}",
+  "@tomasADemandaAvisoPronto": {
+    "placeholders": {
+      "horas": {
+        "type": "int"
+      },
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasADemandaAvisoConsejo": "Si tienes dudas, pregunta a tu médico o farmacéutico. ¿Lo anotas igualmente?",
+  "tomasADemandaAvisoSi": "Sí, lo he tomado",
+  "tomasADemandaAvisoNo": "No, no lo anoto",
+  "tomasADemandaHoy": "{veces, plural, =1{Hoy lo has tomado a las {horas}} other{Hoy lo has tomado {veces} veces: a las {horas}}}",
+  "@tomasADemandaHoy": {
+    "description": "{horas} es la lista de horas, por ejemplo \"08:10 y 14:30\".",
+    "placeholders": {
+      "veces": {
+        "type": "int"
+      },
+      "horas": {
+        "type": "String"
+      }
+    }
+  },
+  "historialADemanda": "{hora} · {medicamento}: tomada cuando hacía falta",
+  "@historialADemanda": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      },
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "informeADemanda": "Cuando hacía falta:",
+  "informeADemandaDia": "{dia}: {tomas}.",
+  "@informeADemandaDia": {
+    "description": "{dia} es como \"Hoy 25/10\"; {tomas}, como \"Paracetamol a las 08:10 y 14:30\".",
+    "placeholders": {
+      "dia": {
+        "type": "String"
+      },
+      "tomas": {
+        "type": "String"
+      }
+    }
+  },
+  "informeADemandaTomas": "{medicamento} a las {horas}",
+  "@informeADemandaTomas": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "horas": {
+        "type": "String"
+      }
+    }
+  },
+  "tomasADemandaQuitar": "Quitar la última",
+  "@tomasADemandaQuitar": {
+    "description": "Botón para borrar la última toma anotada de un medicamento \"cuando haga falta\", si se anotó por error."
+  },
+  "tomasADemandaQuitarSemantica": "Quitar la toma de {medicamento} de las {hora}",
+  "@tomasADemandaQuitarSemantica": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoGuardar": "Guardar medicamento",
+  "@formularioMedicamentoGuardar": {
+    "description": "Botón del formulario para un medicamento nuevo \"cuando haga falta\": no crea ningún recordatorio."
+  },
+  "existenciasQuedan": "{cantidad, plural, =0{No quedan pastillas} =1{Queda 1 pastilla} other{Quedan {cantidad} pastillas}}",
+  "@existenciasQuedan": {
+    "description": "Pastillas que quedan de un medicamento (también cápsulas o sobres).",
+    "placeholders": {
+      "cantidad": {
+        "type": "int"
+      }
+    }
+  },
+  "existenciasPastillas": "{n, plural, =1{1 pastilla} other{{n} pastillas}}",
+  "@existenciasPastillas": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "existenciasPastillasYMedia": "{n, plural, =0{media pastilla} =1{1 pastilla y media} other{{n} pastillas y media}}",
+  "@existenciasPastillasYMedia": {
+    "description": "{n} es la parte entera: 0 es media pastilla; 14, catorce pastillas y media.",
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "existenciasMedia": "media",
+  "@existenciasMedia": {
+    "description": "Media pastilla, en el selector de las pastillas de cada toma."
+  },
+  "existenciasYMedia": "{n} y media",
+  "@existenciasYMedia": {
+    "description": "En el selector: «1 y media».",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "existenciasQuedanYMedia": "{n, plural, =0{Queda media pastilla} =1{Queda 1 pastilla y media} other{Quedan {n} pastillas y media}}",
+  "@existenciasQuedanYMedia": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "existenciasParaDias": "{dias, plural, =1{para 1 día} other{para unos {dias} días}}",
+  "@existenciasParaDias": {
+    "description": "Va detrás de existenciasQuedan: \"Quedan 20 pastillas, para unos 20 días\".",
+    "placeholders": {
+      "dias": {
+        "type": "int"
+      }
+    }
+  },
+  "existenciasHastaElFinal": "suficientes hasta el final del tratamiento",
+  "existenciasConDetalle": "{quedan}, {detalle}",
+  "@existenciasConDetalle": {
+    "description": "{quedan} es existenciasQuedan; {detalle}, existenciasParaDias o existenciasHastaElFinal.",
+    "placeholders": {
+      "quedan": {
+        "type": "String"
+      },
+      "detalle": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoExistenciasTitulo": "Te quedan pocas pastillas",
+  "avisoRecetaTitulo": "Renueva la receta",
+  "avisoRecetaCuerpo": "La receta de {medicamento} se acaba el {fecha}. Pide cita con tu médico para renovarla.",
+  "@avisoRecetaCuerpo": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoRecetaCuerpoHoy": "La receta de {medicamento} se acaba hoy. Pide cita con tu médico para renovarla.",
+  "@avisoRecetaCuerpoHoy": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoRecetaCuerpoAcabada": "La receta de {medicamento} se acabó el {fecha}. Pide cita con tu médico para renovarla.",
+  "@avisoRecetaCuerpoAcabada": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoExistenciasSemana": "{medicamento}: no llegan para una semana. Cuando compres más, pulsa \"{boton}\" en tus medicamentos.",
+  "@avisoExistenciasSemana": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoExistenciasQuedan": "{cantidad, plural, =1{{medicamento}: queda 1. Cuando compres más, pulsa \"{boton}\" en tus medicamentos.} other{{medicamento}: quedan {cantidad}. Cuando compres más, pulsa \"{boton}\" en tus medicamentos.}}",
+  "@avisoExistenciasQuedan": {
+    "description": "Aviso de un medicamento \"cuando haga falta\" del que quedan pocas.",
+    "placeholders": {
+      "cantidad": {
+        "type": "int"
+      },
+      "medicamento": {
+        "type": "String"
+      },
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoExistenciasQuedanYMedia": "{n, plural, =0{{medicamento}: queda media. Cuando compres más, pulsa \"{boton}\" en tus medicamentos.} =1{{medicamento}: queda 1 y media. Cuando compres más, pulsa \"{boton}\" en tus medicamentos.} other{{medicamento}: quedan {n} y media. Cuando compres más, pulsa \"{boton}\" en tus medicamentos.}}",
+  "@avisoExistenciasQuedanYMedia": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "medicamento": {
+        "type": "String"
+      },
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "avisoExistenciasAcabadas": "{medicamento}: ya no quedan. Cuando compres más, pulsa \"{boton}\" en tus medicamentos.",
+  "@avisoExistenciasAcabadas": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "medicamentoExistenciasPocas": "Quedan pocas. Cuando compres más, pulsa \"{boton}\".",
+  "@medicamentoExistenciasPocas": {
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "medicamentoComprarMas": "He comprado más",
+  "medicamentoComprarMasSemantica": "He comprado más {medicamento}",
+  "@medicamentoComprarMasSemantica": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "menuExistenciasPocas": "Te quedan pocas pastillas de {medicamentos}.",
+  "@menuExistenciasPocas": {
+    "description": "{medicamentos} es la lista de nombres, por ejemplo \"Omeprazol y Paracetamol\".",
+    "placeholders": {
+      "medicamentos": {
+        "type": "String"
+      }
+    }
+  },
+  "menuRecetas": "Hay que renovar la receta de {medicamentos}.",
+  "@menuRecetas": {
+    "description": "{medicamentos} es una lista, por ejemplo «Omeprazol y Enalapril».",
+    "placeholders": {
+      "medicamentos": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoExistenciasTitulo": "Pastillas que te quedan (opcional)",
+  "formularioMedicamentoExistenciasDescripcion": "Si quieres, la aplicación las cuenta y te avisa antes de que se acaben.",
+  "formularioMedicamentoSinCuenta": "No llevar la cuenta",
+  "formularioMedicamentoSinCuentaDescripcion": "No te avisaremos de cuántas quedan.",
+  "formularioMedicamentoConCuenta": "Llevar la cuenta",
+  "formularioMedicamentoConCuentaDescripcion": "Cada toma se descuenta y te avisaremos cuando queden pocas.",
+  "formularioMedicamentoExistenciasCampo": "Pastillas que tienes ahora",
+  "formularioMedicamentoExistenciasCampoDescripcion": "Cuéntalas, o pon las de la caja si está sin empezar. Si queda media, escribe por ejemplo 14,5. Vale también para cápsulas o sobres.",
+  "formularioMedicamentoPorToma": "Pastillas en cada toma",
+  "formularioMedicamentoPorTomaValor": "{n, plural, =1{1 pastilla en cada toma} other{{n} pastillas en cada toma}}",
+  "@formularioMedicamentoPorTomaValor": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "formularioMedicamentoPorTomaYMedia": "{n, plural, =0{media pastilla en cada toma} =1{1 pastilla y media en cada toma} other{{n} pastillas y media en cada toma}}",
+  "@formularioMedicamentoPorTomaYMedia": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "formularioMedicamentoPorTomaMenos": "Media pastilla menos en cada toma",
+  "formularioMedicamentoPorTomaMas": "Media pastilla más en cada toma",
+  "formularioMedicamentoPorTomaDeLas": "Pastillas en la toma de las {hora}",
+  "@formularioMedicamentoPorTomaDeLas": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoPorTomaDeLasMenos": "Media pastilla menos a las {hora}",
+  "@formularioMedicamentoPorTomaDeLasMenos": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "formularioMedicamentoPorTomaDeLasMas": "Media pastilla más a las {hora}",
+  "@formularioMedicamentoPorTomaDeLasMas": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "validadorMedicamentoExistencias": "Escribe cuántas pastillas tienes: un número entre 0 y {maximo}. Si hay media, con coma: 14,5.",
+  "@validadorMedicamentoExistencias": {
+    "placeholders": {
+      "maximo": {
+        "type": "String"
+      }
+    }
+  },
+  "comprarCampo": "¿Cuántas has comprado?",
+  "comprarCampoDescripcion": "Mira cuántas trae la caja; por ejemplo, 28.",
+  "comprarTendras": "Tendrás {pastillas}.",
+  "@comprarTendras": {
+    "description": "{pastillas} es como «31 pastillas» o «14 pastillas y media».",
+    "placeholders": {
+      "pastillas": {
+        "type": "String"
+      }
+    }
+  },
+  "comprarAnadir": "Añadir a las que tengo",
+  "comprarError": "Escribe cuántas has comprado: un número entre 1 y {maximo}.",
+  "@comprarError": {
+    "placeholders": {
+      "maximo": {
+        "type": "String"
+      }
+    }
+  },
+  "comprarHechoTitulo": "Pastillas añadidas",
+  "recetaTitulo": "Receta renovada",
+  "recetaPregunta": "¿Hasta qué día es la receta nueva?",
+  "recetaGuardar": "Guardar la fecha nueva",
+  "recetaQuitar": "Ya no hace falta renovarla",
+  "recetaQuitarDescripcion": "Quita la fecha: no te avisaremos más de esta receta.",
+  "recetaGuardada": "Receta de {medicamento}: hasta el {fecha}.",
+  "@recetaGuardada": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      },
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "recetaQuitada": "Ya no te avisaremos de la receta de {medicamento}.",
+  "@recetaQuitada": {
+    "placeholders": {
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "comprarHecho": "Ahora tienes {pastillas} de {medicamento}.",
+  "@comprarHecho": {
+    "description": "{pastillas} es como «31 pastillas» o «14 pastillas y media».",
+    "placeholders": {
+      "pastillas": {
+        "type": "String"
+      },
+      "medicamento": {
+        "type": "String"
+      }
+    }
+  },
+  "compartirDeOtroMovil": "Medicamentos preparados en otro móvil",
+  "compartirDeOtroMovilExplicacion": "Un familiar puede apuntar tus medicinas y tus citas en su teléfono, con esta misma aplicación, y mandarte una copia con \"{boton}\". Aquí las añades sin borrar nada de lo que ya tienes.",
+  "@compartirDeOtroMovilExplicacion": {
+    "description": "{boton} es el texto del botón compartirEnviarCopia.",
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "compartirImportar": "Añadir medicamentos de otro móvil",
+  "compartirImportarDescripcion": "Elige la copia que te han enviado. Antes te dirá qué añade.",
+  "importarNoSePuede": "No se pueden añadir los medicamentos de este fichero",
+  "importarPregunta": "¿Añadir lo que trae esta copia?",
+  "importarCopiaDel": "Copia del {fecha}, a las {hora}.",
+  "@importarCopiaDel": {
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      },
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "importarSeAnadiran": "Se añadirán: {medicamentos}.",
+  "@importarSeAnadiran": {
+    "placeholders": {
+      "medicamentos": {
+        "type": "String"
+      }
+    }
+  },
+  "importarSeActualizaran": "{cuantos, plural, =1{Ya tenías {medicamentos}: se pondrá como en la copia, sin perder las tomas anotadas.} other{Ya tenías {medicamentos}: se pondrán como en la copia, sin perder las tomas anotadas.}}",
+  "@importarSeActualizaran": {
+    "placeholders": {
+      "cuantos": {
+        "type": "int"
+      },
+      "medicamentos": {
+        "type": "String"
+      }
+    }
+  },
+  "importarCitas": "Citas nuevas: {citas}.",
+  "@importarCitas": {
+    "placeholders": {
+      "citas": {
+        "type": "String"
+      }
+    }
+  },
+  "importarNoSeBorra": "No se borra nada: tus tomas anotadas y tus ajustes se quedan como están.",
+  "importarSi": "Sí, añadir",
+  "importarNadaNuevo": "No hay nada que añadir",
+  "importarNadaNuevoMensaje": "Esta copia no trae medicamentos ni citas que no tengas.",
+  "importarHecho": "Medicamentos añadidos",
+  "importarError": "No se han podido añadir los medicamentos. Inténtalo otra vez.",
+  "historialResumenSemana": "En los últimos 7 días has marcado {tomadas} de {total} tomas ({porcentaje} %).",
+  "@historialResumenSemana": {
+    "description": "Solo cuentan las tomas cuya hora ya ha llegado.",
+    "placeholders": {
+      "tomadas": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      },
+      "porcentaje": {
+        "type": "String"
+      }
+    }
+  },
+  "informeResumenSemana": "Marcadas {tomadas} de {total} tomas ({porcentaje} %).",
+  "@informeResumenSemana": {
+    "placeholders": {
+      "tomadas": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      },
+      "porcentaje": {
+        "type": "String"
+      }
+    }
+  },
+  "compartirRecordarResumen": "Recordarme enviarlo cada semana",
+  "compartirRecordarResumenDescripcion": "Los domingos a las 18:00 te avisaremos para enviar tu medicación y tus tomas.",
+  "avisoResumenTitulo": "¿Envías tu resumen a la familia?",
+  "avisoResumenCuerpo": "Toca aquí y pulsa \"{boton}\" para mandar tu medicación y tus tomas de la semana.",
+  "@avisoResumenCuerpo": {
+    "description": "{boton} es el texto del botón compartirEnviarInforme.",
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "widgetTitulo": "Próxima toma",
+  "widgetVacio": "No hay más tomas previstas.",
+  "ajustesWidget": "Poner la próxima toma en la pantalla de inicio",
+  "ajustesWidgetDescripcion": "Un recuadro con la próxima toma y el botón \"{boton}\", sin abrir la aplicación.",
+  "@ajustesWidgetDescripcion": {
+    "description": "{boton} es el texto del botón tomasMarcar.",
+    "placeholders": {
+      "boton": {
+        "type": "String"
+      }
+    }
+  },
+  "ajustesWidgetManual": "Mantén pulsado un hueco de la pantalla de inicio del teléfono, toca \"Widgets\" y busca \"{app}\".",
+  "@ajustesWidgetManual": {
+    "description": "Cuando el teléfono no sabe poner el widget por sí mismo. {app} es el nombre de la aplicación.",
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "@avisoAplazar": {
+    "description": "Botón de los avisos de tomas. {minutos} es lo elegido en Ajustes → Repetir los avisos: 5, 10, 15 o 30.",
+    "placeholders": {
+      "minutos": {
+        "type": "int"
+      }
+    }
+  }
+}

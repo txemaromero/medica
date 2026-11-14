@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- El icono de las notificaciones solo se nombra desde Dart
+     ('@drawable/ic_notificacion'): se conserva al reducir recursos en las
+     compilaciones de release. -->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/ic_notificacion" />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copia automática de Android 11 y anteriores: lo mismo que en
+     reglas_copia.xml. -->
+<full-backup-content>
+    <include domain="database" path="." />
+    <include domain="sharedpref" path="FlutterSharedPreferences.xml" />
+    <include domain="root" path="app_flutter/fotos" />
+</full-backup-content>

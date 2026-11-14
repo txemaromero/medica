@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textos del widget en gallego (ver values/strings.xml). -->
+<resources>
+    <string name="widget_nombre">Próxima toma</string>
+    <string name="widget_descripcion">A próxima toma e o botón \"Xa a tomei\".</string>
+    <string name="widget_sin_datos">Abre a aplicación para ver as túas tomas.</string>
+</resources>
